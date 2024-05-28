@@ -1,0 +1,6 @@
+{
+    "clusterAddress" : "CLUSTER_ADDRESS",
+    "shareName" : "SHARE_NAME",
+    "filePrefix" : "*.pdf",
+    "tempFilePath" : "C:\\Invoice_Temp.txt"
+}

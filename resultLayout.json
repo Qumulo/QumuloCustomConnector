@@ -1,0 +1,70 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Invoice Number: [${invoiceNumber}](${url})",
+      "weight": "Bolder",
+      "size": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Customer: ${customer}",
+      "weight": "Bolder",
+      "size": "Medium"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Date: ${date}",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "City: ${city}",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Country: ${country}",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Post Code: ${postcode}",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Total Amount: ${totalAmount}",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Address: ${address}",
+              "wrap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "$data": {
+    "invoiceNumber": "100234",
+    "customer": "Ana Heath",
+    "totalAmount": "175.00",
+    "date": "04/04/2024",
+    "city": "Burmantofts",
+    "country": "England",
+    "postcode": "LS10 1RR",
+    "address": "10 High Street"
+  }
+}

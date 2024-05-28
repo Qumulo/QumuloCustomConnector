@@ -1,0 +1,62 @@
+[
+    {
+    "name": "customer",
+    "type": "String",
+    "isQueryable": true,
+    "isSearchable": true,
+    "isRetrievable": true
+    },
+    {
+    "name": "totalAmount",
+    "type": "String",
+    "isQueryable": true,
+    "isSearchable": true,
+    "isRetrievable": true
+    },
+    {
+    "name": "city",
+    "type": "String",
+    "isQueryable": true,
+    "isSearchable": true,
+    "isRetrievable": true
+    },
+    {
+    "name": "country",
+    "type": "String",
+    "isQueryable": true,
+    "isSearchable": true,
+    "isRetrievable": true
+    },
+    {
+    "name": "postcode",
+    "type": "String",
+    "isQueryable": true,
+    "isSearchable": true,
+    "isRetrievable": true
+    },
+    {
+    "name": "address",
+    "type": "String",
+    "isQueryable": true,
+    "isSearchable": true,
+    "isRetrievable": true
+    },
+    {
+    "name": "invoiceNumber",
+    "type": "String",
+    "isQueryable": true,
+    "isSearchable": true,
+    "isRetrievable": true
+    },
+    {
+    "name": "date",
+    "type": "DateTime",
+    "isQueryable": true,
+    "isRetrievable": true
+    },
+    {
+    "name": "url",
+    "type": "String",
+    "isRetrievable": true
+    }
+]

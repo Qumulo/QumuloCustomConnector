@@ -1,0 +1,19 @@
+{
+    "appDisplayName" : "Content Search on Qumulo",
+    "appSecretName" : "QumuloSecret",
+    "userId" : "71608eb0-9c49-4a21-a77b-f8f3d66d4289",
+    "connection" :{
+        "id" : "QumuloConnector",
+        "name" : "Invoice Data on Qumulo",
+        "description" : "Invoice data including products, amounts, and customer details"
+    },
+    "activitySettings" : {
+        "baseUrl" : "file://CLUSTER_ADDRESS/SHARE_NAME/",
+        "urlPattern" : "/Invoice(?<invoiceNumber>[^/]+).pdf",
+        "itemId" : "{invoiceNumber}"
+    },
+    "searchSettings":{
+        "id" : "invoiceTemplate",
+        "layoutFilePath" : ".\\resultLayout.json" 
+    }
+}
