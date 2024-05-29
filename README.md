@@ -10,7 +10,7 @@ This PowerShell-based Microsoft Custom Graph Connector enables the integration o
 ## Requirements
 - [PowerShell 7.0](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.4) or higher
 - [Microsoft Graph PowerShell SDK](https://learn.microsoft.com/en-us/powershell/microsoftgraph/installation?view=graph-powershell-1.0)
-- [Xpdf tools](https://www.xpdfreader.com/) (for PDF to text conversion)
+- [Xpdf tools](https://dl.xpdfreader.com/xpdf-tools-win-4.05.zip) (for PDF to text conversion)
 - Access to a Qumulo cluster over SMB
 
 ## Configuration Files
@@ -59,7 +59,7 @@ This file contains configuration necessary for creating and describing an extern
 {
     "userId" : "71608eb0-9c49-4a21-a77b-f8f3d66d4289",
     "connection" :{
-        "id" : "QumuloPowerShell5",
+        "id" : "QumuloPS5",
         "name" : "Invoice Data on Qumulo",
         "description" : "Invoice data including products, amounts, and customer details"
     },
@@ -226,10 +226,62 @@ For more information about a [schema](https://learn.microsoft.com/en-us/graph/ap
 
 ## Usage
 1. Ensure all prerequisite software and PowerShell modules are installed.
-2. Configure the JSON files (`qumulo.json`, `connection.json`, `resultLayout.json`, `schema.json`) with appropriate values.
-3. Run the PowerShell script.
-4. Use the interactive menu to operate the functionalities of the connector.
-
+   - Set an exceptional policy for running unsigned modules:
+   ```powershell
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   ```
+   - Install the required modules:
+   ``` powershell
+   Install-Module Microsoft.Graph -Scope AllUsers -Force
+   Install-Module -Name Microsoft.PowerShell.SecretManagement -Repository PSGallery -Force
+   Install-Module -Name Microsoft.PowerShell.SecretStore -Repository PSGallery -Force
+   ```
+   - Register the SecretStore vault as the default vault:
+   ```powershell
+   Register-SecretVault -Name QumuloSecret -ModuleName Microsoft.PowerShell.SecretStore -DefaultVault
+   ```
+2. Connect your Qumulo cluster using Windows File Explorer.
+   ```powershell
+    \\YOUR_CLUSTER_NAME\SHARE_NAME
+   ```
+4. Install Xpdf
+   - To install this binary package, copy everything to an installation directory
+   ```powershell
+    C:/Program Files/Xpdf
+   ```
+5. Configure the JSON files (`qumulo.json`, `connection.json`) with appropriate values.
+    - To configure the `qumulo.json`, update the below fields.
+    ```json
+    "clusterAddress" : "YOUR_CLUSTER_ADDRESS",
+    "shareName" : "SHARE_NAME",
+    ```
+    - To configure the `connection.json`, update the below fields.
+    ```json
+    "connection" :{
+        "id" : "UNIQUE_CONNECTION_ID",
+        "name" : "UNIQUE_CONNECTION_NAME",
+        "description" : "Invoice data including products, amounts, and customer details"
+    },
+    "activitySettings" : {
+        "baseUrl" : "file://CLUSTER_ADDRESS/SHARE_NAME/",
+    ```
+    - For testing purpose please use our sample PDF files. Configuring the `resultLayout.json` and `schema.json` files is required for testing. 
+6. Run the PowerShell script.
+   ```cmd
+   .\QumuloCustomConnector.ps1
+   ```
+7. Use the interactive menu to operate the functionalities of the connector. You can follow the order.
+   ```cmd
+   ================ Welcome to Qumulo Custom Connector! ================
+   Please choose an option:
+   - Press '1' to initialize an Entra app.
+   - Press '2' to connect to a connection.
+   - Press '3' to create a new connection.
+   - Press '4' to import data from a Qumulo cluster.
+   - Press 'Q' to quit.
+   ====================================================================
+   Select an option:
+   ```
 ## Notes
 - It's crucial to have proper permissions set up both in your Qumulo cluster and in Microsoft Graph to allow data reading and writing.
 
