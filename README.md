@@ -245,7 +245,7 @@ For more information about a [schema](https://learn.microsoft.com/en-us/graph/ap
     \\YOUR_CLUSTER_NAME\SHARE_NAME
    ```
 4. Install Xpdf
-   - To install this binary package, copy everything to an installation directory
+   - To install this binary package, copy everything to the recommended installation directory
    ```powershell
     C:/Program Files/Xpdf
    ```
