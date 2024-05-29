@@ -2,7 +2,7 @@ function Read-Content {
     # Load the schema from the JSON file as an array of objects
     $qumuloDetails = Get-Content -Path ".\qumulo.json" -Raw | ConvertFrom-Json
     $files = Get-ChildItem -Path "\\$($qumuloDetails.clusterAddress)\$($qumuloDetails.shareName)" -Recurse -File -Filter "$($qumuloDetails.filePrefix)*"
-    
+
     $files | ForEach-Object {
         # Define the path to the PDF file and the output text file
         $pdfPath = $_.FullName
@@ -16,7 +16,8 @@ function Read-Content {
             Write-Host "The pdf to text does not exist.Please download it from https://dl.xpdfreader.com/xpdf-tools-win-4.05.zip" -ForegroundColor Red
             exit 1
         }
-        
+
+
         # Read the converted text file
         $content = Get-Content $txtOutputPath -Encoding UTF8
 
@@ -33,12 +34,12 @@ function Read-Content {
         }
 
         $invoiceDetails = @{}
-        foreach ($regKey in $regexes.Keys) {
-            $matches = Select-String -Pattern $regexes[$regKey] -InputObject $content
+        foreach ($key in $regexes.Keys) {
+            $matches = Select-String -Pattern $regexes[$key] -InputObject $content
             if ($matches.Matches.Count -gt 0) {
-                $invoiceDetails[$regKey] = $matches.Matches[0].Groups[1].Value.Trim()
+                $invoiceDetails[$key] = $matches.Matches[0].Groups[1].Value.Trim()
             } else {
-                $invoiceDetails[$regKey] = ""
+                $invoiceDetails[$key] = ""
             }
         }
 
@@ -57,7 +58,7 @@ function Read-Content {
             }
         }
 
-        Write-Host $invoice
+        Write-Output $invoice
     }
 }
 
@@ -117,7 +118,7 @@ function ConvertTo-ExternalItem {
                 )
             }
 
-            Write-Host $item
+            Write-Output $item
         } catch {
             Write-Error "Failed to process content: $_"
         }
@@ -262,7 +263,7 @@ function CreateAConnection {
     param (
         [Parameter(Mandatory = $false)]
         [string] $schemaFilePath = ".\schema.json",
-        
+
         [Parameter(Mandatory = $false)]
         [string] $connectionFilePath = ".\connection.json"
     )
@@ -288,7 +289,7 @@ function CreateAConnection {
         Write-Host "Loading adaptive card layout"
         [hashtable]$adaptiveCard = @{}
         $adaptiveCard += Get-Content -Path $connectionDetails.searchSettings.layoutFilePath -Raw | ConvertFrom-Json -AsHashtable
-        
+
         $externalConnection = @{
             userId     = $($connectionDetails.userId)
             connection = @{
@@ -322,7 +323,7 @@ function CreateAConnection {
             }
             schema = $schemaHashtables
         }
-        
+
 
         Write-Host
         Write-Host "Creating external connection... " -NoNewLine
@@ -334,7 +335,7 @@ function CreateAConnection {
             baseType = "microsoft.graph.externalItem"
             properties = $externalConnection.schema
         }
-        
+
         Update-MgExternalConnectionSchema -ExternalConnectionId $externalConnection.connection.id -BodyParameter $body -ErrorAction Stop
         Write-Host "DONE" -ForegroundColor Green
 
@@ -359,7 +360,7 @@ function ConnecttoAConnection {
         $config = Get-Content -Path "config.ini" | ConvertFrom-StringData
         Write-Host "Loading credentials..." -ForegroundColor Yellow
         $credential = Get-Secret -Name "QumTest1"
-        
+
         Write-Host "Connecting to Microsoft Graph..." -ForegroundColor Yellow
         Connect-MgGraph -ClientSecretCredential $credential -TenantId $config.TenantId -NoWelcome
         #Connect-MgGraph -Scopes AppRoleAssignment.ReadWrite.All, Application.ReadWrite.All -NoWelcome
@@ -416,8 +417,8 @@ function Show-Menu {
 
 do {
     Show-Menu
-    $CliInput = Read-Host "Select an option"
-    switch ($CliInput) {
+    $input = Read-Host "Select an option"
+    switch ($input) {
         '1' {
             InitializeEntraApp
         }
@@ -439,5 +440,5 @@ do {
             Write-Host "Invalid option, please try again." -ForegroundColor Red
         }
     }
-    if ($CliInput -ne 'Q') { pause }
-} while ($CliInput -ne 'Q')
+    if ($input -ne 'Q') { pause }
+} while ($input -ne 'Q')
