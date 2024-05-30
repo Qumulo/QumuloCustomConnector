@@ -256,6 +256,7 @@ For more information about a [schema](https://learn.microsoft.com/en-us/graph/ap
     ```json
     "clusterAddress" : "YOUR_CLUSTER_ADDRESS",
     "shareName" : "SHARE_NAME",
+    "tempFilePath" : "ACCESSIBLE_PATH_FOR_TEMPORARY_FILE"
     ```
     - To configure the `connection.json`, update the below fields.
     ```json
