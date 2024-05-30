@@ -228,6 +228,8 @@ For more information about a [schema](https://learn.microsoft.com/en-us/graph/ap
 
 ## Usage
 1. Ensure all prerequisite software and PowerShell modules are installed.
+> [!NOTE]
+> PowerShell 7 is mandatory. Please don't forget to install it first.
    - Set an exceptional policy for running unsigned modules:
    ```powershell
    Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
@@ -242,7 +244,7 @@ For more information about a [schema](https://learn.microsoft.com/en-us/graph/ap
    ```powershell
    Register-SecretVault -Name QumuloSecret -ModuleName Microsoft.PowerShell.SecretStore -DefaultVault
    ```
-2. Connect your Qumulo cluster using Windows File Explorer.
+3. Connect your Qumulo cluster using Windows File Explorer.
    ```powershell
     \\YOUR_CLUSTER_NAME\SHARE_NAME
    ```
