@@ -230,7 +230,7 @@ For more information about a [schema](https://learn.microsoft.com/en-us/graph/ap
 1. Ensure all prerequisite software and PowerShell modules are installed.
    - Set an exceptional policy for running unsigned modules:
    ```powershell
-   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
    ```
    - Install the required modules:
    ``` powershell
