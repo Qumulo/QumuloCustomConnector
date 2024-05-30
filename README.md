@@ -234,7 +234,7 @@ For more information about a [schema](https://learn.microsoft.com/en-us/graph/ap
    ```
    - Install the required modules:
    ``` powershell
-   Install-Module Microsoft.Graph -Scope AllUsers -Force
+   Install-Module Microsoft.Graph -Scope CurrentUser -Force
    Install-Module -Name Microsoft.PowerShell.SecretManagement -Repository PSGallery -Force
    Install-Module -Name Microsoft.PowerShell.SecretStore -Repository PSGallery -Force
    ```
