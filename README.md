@@ -1,5 +1,7 @@
 # Qumulo Custom Connector
 
+<img align="center" src="img/QumuloCustomConnector.png">
+
 ## Overview
 In the world of enterprise services, managing vast amounts of digital records scattered across various locations—on-premises, in the cloud, and in archives—is a common challenge. These records come in myriad formats, including databases, PDF files, Office documents, and text files, potentially scaling up to billions of documents. Traditional tools often fall short as they typically handle only structured data, and there are genuine concerns about security and competitive data leakage with some AI solutions.
 
