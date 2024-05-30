@@ -394,19 +394,19 @@ function Show-Menu {
     Write-Host " Please choose an option:"
     Write-Host "- Press '" -NoNewline
     Write-Host '1' -ForegroundColor Yellow -NoNewline
-    Write-Host "' to initialize an Entra app."
+    Write-Host "' Initialize the Qumulo Custom Connector | the Microsoft Graph Application |"
 
     Write-Host "- Press '" -NoNewline
     Write-Host '2' -ForegroundColor Yellow -NoNewline
-    Write-Host "' to connect to a connection."
+    Write-Host "' Connect to Microsoft Graph"
 
     Write-Host "- Press '" -NoNewline
     Write-Host '3' -ForegroundColor Yellow -NoNewline
-    Write-Host "' to create a new connection."
+    Write-Host "' Create a Microsoft Graph External connection"
 
     Write-Host "- Press '" -NoNewline
     Write-Host '4' -ForegroundColor Yellow -NoNewline
-    Write-Host "' to import data from a Qumulo cluster."
+    Write-Host "' Import data from the Qumulo cluster"
 
     Write-Host "- Press '" -NoNewline
     Write-Host 'Q' -ForegroundColor Yellow -NoNewline
