@@ -18,6 +18,7 @@ In this section, you will use Copilot to perform natural language processing (NL
 3. On the bottom-center of the page, use the search bar to ask natural questions of Copilot regarding the images. 
 
 ### **Examples Prompts**: <br>
+<br>
 - "Show me an invoice"
 ![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-show-me-an-invoice.png?raw=true)
 
