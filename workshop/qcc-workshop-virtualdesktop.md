@@ -2,8 +2,9 @@
 
 1. **Log In**
    - Click the RDP connection in the Remote Desktop Application.
-      - Be sure you are using the IP address, username, and password from the handout.
-   - PowerShell 7 will install necessary prerequisites on the first login, *do not interrupt this process*.
+      - Be sure you are using the IP address, username, and password from your handout.
+   - You will see a Powershell command window running *do not close this window or otherwise interrupt this process*.
+   - PowerShell 7 is installing the prerequsited for QCC during the first login
 
    ![Installation](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-login-script-installing-microsoft-graph.png?raw=true)
 
