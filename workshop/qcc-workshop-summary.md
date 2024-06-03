@@ -1,11 +1,10 @@
 # Workshop Summary 
 
-### Congratulations for finishing the Qumulo Custom Connector Workshop! 
-
 | ![Image made by ChatGPT4o](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/congrats.png?raw=true) |
 |----------------------------------------------|
-| *Original Art -ChatGPT4o* |
+| *Original Art by ChatGPT4o* |
 
+Congratulations for finishing the Qumulo Custom Connector Workshop! 
 You have successfully configured the Qumulo Custom Connector (QCC) and used natural language to query the invoices dataset! 
 
 ## Workshop Summary
