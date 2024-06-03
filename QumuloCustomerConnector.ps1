@@ -394,7 +394,7 @@ function Show-Menu {
     Write-Host " Please choose an option:"
     Write-Host "- Press '" -NoNewline
     Write-Host '1' -ForegroundColor Yellow -NoNewline
-    Write-Host "' Initialize the Qumulo Custom Connector | the Microsoft Graph Application |"
+    Write-Host "' Initialize the Qumulo Custom Connector"
 
     Write-Host "- Press '" -NoNewline
     Write-Host '2' -ForegroundColor Yellow -NoNewline
