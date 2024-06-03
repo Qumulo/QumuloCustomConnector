@@ -17,19 +17,20 @@ In this section, you will use Copilot to perform natural language processing (NL
 
 3. On the bottom-center of the page, use the search bar to ask natural questions of Copilot regarding the images. 
 
-### **Examples Prompts**: <br>
+### **Examples Prompts**: 
 <br>
+
 - "Show me an invoice"
-![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-show-me-an-invoice.png?raw=true)
+![Show me an invoice](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-show-me-an-invoice.png?raw=true)
 
 - "What is the sum of all invoices for Gary Larsen?"
-![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-sum-invoices-gary.png?raw=true)
+![sum of all invoices](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-sum-invoices-gary.png?raw=true)
 
 - "How many total invoices are there?"
-![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-how-many-invoices.png?raw=true)
+![How many total invoices](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-how-many-invoices.png?raw=true)
 
 - "What is the average invoice amount?"
-![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-average-invoice.png?raw=true)
+![average invoice amount](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-average-invoice.png?raw=true)
 
 
 ---
