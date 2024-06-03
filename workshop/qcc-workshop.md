@@ -39,4 +39,6 @@ In this hands-on lab, you will use the Qumulo Custom Connector to extract simula
 | **Plugin** | Plugins extend the functionality of a software application by adding new features or capabilities, and can be used across various platforms and applications, not limited to Microsoft products. |
 
 ---
-[Next: Connecting to the Workshop](qcc-workshop-connecting.md)
+<div align="right">
+  <a href="qcc-workshop-connecting.md">Next: Connecting to the Workshop</a>
+</div>

@@ -54,4 +54,6 @@
 See this [Microsoft Learn page](https://learn.microsoft.com/en-us/outlook/actionable-messages/adaptive-card) to learn more
 
 ---
-| [Previous: Start QCC ](qcc-workshop-startqcc.md) | [Next: Import Invoices](qcc-workshop-import-invoices.md) |  
+<div align="right">
+  | [Previous: Start QCC](qcc-workshop-startqcc.md) | [Next: Import Invoices](qcc-workshop-import-invoices.md) |
+</div>

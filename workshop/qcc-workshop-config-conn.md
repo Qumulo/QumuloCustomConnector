@@ -60,4 +60,6 @@ Example **connection.json** file:
 ```
 
 ---
-| [Previous: Hands-On Lab](qcc-workshop-holstart.md) | [Next: Start QCC](qcc-workshop-startqcc.md) |
+<div align="right">
+  | [Previous: Hands-On Lab](qcc-workshop-holstart.md) | [Next: Start QCC](qcc-workshop-startqcc.md) |
+</div>

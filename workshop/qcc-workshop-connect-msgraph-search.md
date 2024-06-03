@@ -48,4 +48,6 @@
 - The data ingest into Microsoft Search can take a few minutes time, but for now you can proceed to the next step.
 
 ---
-| [Previous: Import Invoices ](qcc-workshop-import-invoices.md) | [Next: Using Copilot to Query Images ](qcc-workshop-connect-copilot.md) |  
+<div align="right">
+  | [Previous: Import Invoices](qcc-workshop-import-invoices.md) | [Next: Using Copilot to Query Images](qcc-workshop-connect-copilot.md) |
+</div>

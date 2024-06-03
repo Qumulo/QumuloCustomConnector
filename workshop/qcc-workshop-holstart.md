@@ -2,9 +2,10 @@
 
 ### Review the Qumulo Custom Connector PowerShell Script
 
-### Step 1. Open the Qumulo Custom Connector PowerShell script
-- In PowerShell, open the script located on your Desktop at `C:\Users\Qumulo\Desktop\qcc\QumuloCustomerConnector.ps1`.
+### Step 1. Review of the QumuloCustomerConnector.ps1 PowerShell script
 
+- In the PowerShell 7 command window launched in the previous step, cd to `C:\Users\Qumulo\Desktop\qcc`
+   - Do not launch the script yet! We still need to configure QCC before running the script *(coming up)*
 
 <p align="center">
   <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-open-pwsh.png?raw=true" alt="QCC in pwsh">
@@ -34,4 +35,6 @@
 - In this lab, we will customize two files: `qumulo.json` and `connection.json`. The other two files are pre-configured, but you should review them to understand how they can be used in your own projects.
 
 ---
-| [Previous: Your Virtual Desktop](qcc-workshop-virtualdesktop.md) | [Next: Configure the Qumulo Custom Connector](qcc-workshop-config-conn.md) |
+<div align="right">
+  | [Previous: Your Virtual Desktop](qcc-workshop-virtualdesktop.md) | [Next: Configure the Qumulo Custom Connector](qcc-workshop-config-conn.md) |
+</div>

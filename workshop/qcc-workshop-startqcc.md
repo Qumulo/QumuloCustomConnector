@@ -50,4 +50,6 @@
 
 
 ---
-| [Previous: Configure QCC](qcc-workshop-config-conn.md) | [Next: Initialize Microsoft Graph ](qcc-workshop-initmsgraph.md) |
+<div align="right">
+  | [Previous: Configure QCC](qcc-workshop-config-conn.md) | [Next: Initialize Microsoft Graph](qcc-workshop-initmsgraph.md) |
+</div>

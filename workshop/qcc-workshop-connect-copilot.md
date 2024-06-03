@@ -28,4 +28,6 @@ In this section, you will use Copilot to perform natural language processing (NL
 | "What is the average invoice amount?"     | ![average invoice amount](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-average-invoice.png?raw=true)                    |
 
 ---
-| [Previous: Connect MS Graph to MS Search ](qcc-workshop-connect-msgraph-search.md) | [Next: Workshop Summary ](qcc-workshop-summary.md) |  
+<div align="right">
+  | [Previous: Connect MS Graph to MS Search](qcc-workshop-connect-msgraph-search.md) | [Next: Workshop Summary](qcc-workshop-summary.md) |
+</div>

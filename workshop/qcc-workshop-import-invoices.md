@@ -22,4 +22,6 @@ The PDFs will be listed on the screen as they are imported, as shown in the exam
 ![Importing invoices](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-importing-invoices-38percent.png?raw=true)
 
 ---
-| [Previous: Initialize Microsoft Graph ](qcc-workshop-initmsgraph.md) | [Next: Connect MS Graph to MS Search](qcc-workshop-connect-msgraph-search.md) |  
+<div align="right">
+  | [Previous: Initialize Microsoft Graph](qcc-workshop-initmsgraph.md) | [Next: Connect MS Graph to MS Search](qcc-workshop-connect-msgraph-search.md) |
+</div>
