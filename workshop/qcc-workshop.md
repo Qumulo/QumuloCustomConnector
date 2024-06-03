@@ -1,8 +1,8 @@
-# Integrating Azure Native Qumulo with Microsoft Copilot
-
-<p align="center">
+<p align="left">
   <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qumulo-logo.png?raw=true" alt="Qumulo Logo" />
 </p>
+
+# Integrating Azure Native Qumulo with Microsoft Copilot
 
 The workshop focuses on integrating Azure Native Qumulo with Microsoft Copilot by using the Qumulo Custom Connector to extract and load simulated invoices into Microsoft Graph. Participants will learn to configure Microsoft Graph, understand essential permissions, and import data, enabling Microsoft Copilot to utilize this data for answering questions. Instructions for setting up and connecting to the virtual desktop via Microsoft Remote Desktop are provided for both Windows and MacOS users.
 
