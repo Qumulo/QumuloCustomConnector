@@ -20,18 +20,12 @@ In this section, you will use Copilot to perform natural language processing (NL
 ### **Examples Prompts**: 
 <br>
 
-- "Show me an invoice"
-![Show me an invoice](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-show-me-an-invoice.png?raw=true)
-
-- "What is the sum of all invoices for Gary Larsen?"
-![sum of all invoices](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-sum-invoices-gary.png?raw=true)
-
-- "How many total invoices are there?"
-![How many total invoices](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-how-many-invoices.png?raw=true)
-
-- "What is the average invoice amount?"
-![average invoice amount](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-average-invoice.png?raw=true)
-
+| Prompt                                    | Results                                                                     |
+|-------------------------------------------|-----------------------------------------------------------------------------|
+| "Show me an invoice"                      | ![Show me an invoice](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-show-me-an-invoice.png?raw=true)                  |
+| "What is the sum of all invoices for Gary Larsen?" | ![sum of all invoices](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-sum-invoices-gary.png?raw=true)                    |
+| "How many total invoices are there?"      | ![How many total invoices](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-how-many-invoices.png?raw=true)                 |
+| "What is the average invoice amount?"     | ![average invoice amount](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-average-invoice.png?raw=true)                    |
 
 ---
 | [Previous: Connect MS Graph to MS Search ](qcc-workshop-connect-msgraph-search.md) | [Next: Workshop Summary ](qcc-workshop-summary.md) |  
