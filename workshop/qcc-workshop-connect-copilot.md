@@ -29,5 +29,5 @@ In this section, you will use Copilot to perform natural language processing (NL
 
 ---
 <div align="right">
-  <a href="qcc-workshop-connect-msgraph-search.md">[Connect MS Graph to MS Search]</a> | <a href="cc-workshop-summary.md">[Next: Workshop Summary]</a>
+  <a href="qcc-workshop-connect-msgraph-search.md">[Connect MS Graph to MS Search]</a> | <a href="qcc-workshop-summary.md">[Next: Workshop Summary]</a>
 </div>
