@@ -26,7 +26,7 @@
 ![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/ms365-search-intel-data-sources.png?raw=true)
 
 5. Locate the connection ID you created in the previous steps.  
-    - Recall that the connection ID is unique and we suggested using your nickname and pet name combined. 
+    - Recall that the connection ID is unique and we suggesetd using your nickname and pet name combined. 
     - *Click on **"Display all connections"** if yours is not listed on the page.*
 
 ![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/ms365-search-intel-find-conn.png?raw=true)

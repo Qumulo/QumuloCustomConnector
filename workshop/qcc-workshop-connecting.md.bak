@@ -32,7 +32,7 @@ This workshop is designed to run the Qumulo Custom Connector (QCC) on a Windows 
   2. Click on **PCs** and then the **+** sign to add a PC.
   3. For the **PC name**, use your specific IP address on the handout.
      - Each attendee has been provided their own personal virtual desktop for this workshop. Your IP address is unique and will only allow a single RDP connection.
-  4. For the **User account**, click on the drop-down and select **Add user account**.
+  4. For the **User account**, click on the dropdown and select **Add user account**.
   5. Enter the Username and Password from the handout.
   6. Under **General**, provide a friendly name, such as "QCC Copilot Workshop".
      - *[Optional]* Adjust other settings to suit your personal preferences, such as whether or not to start in full screen.

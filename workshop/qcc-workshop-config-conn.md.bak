@@ -2,7 +2,7 @@
 
 ### Step 1: Modify the configuration files 
 
-- Using your editor of choice, open `qumulo.json` and `connection.json` located in the QCC folder on your Desktop.
+- Using your editor of choice, open `qumulo.json` and `connection.json` located in the qcc folder on your Desktop.
    - Visual Studio Code, Notepad++, and Notepad are available on the virtual desktop.
 
 ![Opening the Config Files with Notepad++](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-open-config-files-confs.png?raw=true)
@@ -16,7 +16,7 @@
 
 - In the `connection.json` file, update the `baseUrl`-> `activitySetting` similarly.
 - In the `connection.json` file, set the `appSecretName` to a **unique** value
-   - For this workshop you can use an easy-to-remember connection ID, such as your nickname and pet name combined.
+   - For this workshop you can use an easy-to-remamber connection ID, such as your nickname and pet name combined.
       - Write the connection ID you used in this step down or save it on your laptop for future use.
       - For example: *kmaconyxia*
    - Here are the connection ID requirements:

@@ -28,7 +28,7 @@
 | 3. | Loads the adaptive card layout |
 <br>
 
-**This step takes a few minutes:** The duration for schema provisioning can vary significantly based on a few factors:
+**This step takes a few minutes:** The duration for schema provisioning can vary significantly basd on a few factors:
 
 - **API Throttling**: Microsoft Graph API imposes throttling limits to ensure equitable usage among all users.
 - **Service Performance**: The performance of the Microsoft Graph service can fluctuate based on load and resource availability on Microsoft's end.
@@ -36,14 +36,14 @@
 
 ### **What can be done for slow performance?**
 
-- **Check Throttling Limits**: Monitor your API usage and ensure you are not hitting throttling limits. You can also implement retry logic with exponential back-off in your script.
+- **Check Throttling Limits**: Monitor your API usage and ensure you are not hitting throttling limits. You can also implement retry logic with exponential backoff in your script.
     - Microsoft Graph API responses include headers that indicate if throttling is occurring. Key headers to look for are:
         - `Retry-After`: Indicates how long to wait before retrying the request.
         - `x-ms-ratelimit-*`: Provides information about the rate limits and the remaining number of requests.
 - **Simplify Queries**: If possible, simplify your queries to reduce the amount of data being fetched.
     - In QCC, the query is retrieving data, so there is not much to optimize.
-- **Use Filters**: If the Cmdlet supports filters, use them to limit the amount of data being fetched to only what is necessary.
-    - In QCC, the `Update-MgExternalConnectionSchema` Cmdlet doesn't support query filters. Instead, optimizations would require defining and updating the schema properties.  <br>
+- **Use Filters**: If the cmdlet supports filters, use them to limit the amount of data being fetched to only what is necessary.
+    - In QCC, the `Update-MgExternalConnectionSchema` cmdlet doesn't support query filters. Instead, optimizations would require defining and updating the schema properties.  <br>
 
 ### What is ***adaptive card layout***?
 
