@@ -6,7 +6,7 @@ This workshop is designed to run the Qumulo Custom Connector (QCC) on a Windows 
 - You were provided a handout when you walked in the room that has your assigned Windows 10 Workstation IP Address, RDP login username, and RDP login password printed on it.
 - We will be using the <span style="color: #00a4ef;">Microsoft Remote Desktop</span> application to connect to your personally assigned Windows 10 Workstation.
 
-## Microsoft Windows Desktops
+### Microsoft Windows Desktops
 
 - Download the Remote Desktop app from the [Microsoft Store](https://www.microsoft.com/store/p/microsoft-remote-desktop/9wzdncrfj3ps).
 - Installation:
@@ -24,7 +24,7 @@ This workshop is designed to run the Qumulo Custom Connector (QCC) on a Windows 
   <em>Example Windows RDP settings</em>
 </p>
 
-## Apple MacOS Desktops
+### Apple MacOS Desktops
 
 - Download the application from the [Mac App Store](https://itunes.apple.com/app/microsoft-remote-desktop/id1295203466?mt=12).
 - Installation:
