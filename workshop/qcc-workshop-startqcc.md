@@ -51,5 +51,5 @@
 
 ---
 <div align="right">
-  | [Previous: Configure QCC](qcc-workshop-config-conn.md) | [Next: Initialize Microsoft Graph](qcc-workshop-initmsgraph.md) |
+  | <a href="qcc-workshop-config-conn.md">[Previous: Configure QCC]</a> | <a href="qcc-workshop-initmsgraph.md">[Next: Initialize Microsoft Graph]</a> |
 </div>

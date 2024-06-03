@@ -61,5 +61,5 @@ Example **connection.json** file:
 
 ---
 <div align="right">
-  | [Previous: Hands-On Lab](qcc-workshop-holstart.md) | [Next: Start QCC](qcc-workshop-startqcc.md) |
+  | <a href="qcc-workshop-holstart.md">[Previous: Hands-On Lab]</a> | <a href="qcc-workshop-startqcc.md">[Next: Start QCC]</a> | 
 </div>

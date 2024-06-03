@@ -23,5 +23,5 @@ The PDFs will be listed on the screen as they are imported, as shown in the exam
 
 ---
 <div align="right">
-  | [Previous: Initialize Microsoft Graph](qcc-workshop-initmsgraph.md) | [Next: Connect MS Graph to MS Search](qcc-workshop-connect-msgraph-search.md) |
+  | <a href="qcc-workshop-initmsgraph.md">[Previous: Initialize Microsoft Graph]</a> | <a href="qcc-workshop-connect-msgraph-search.md">[Next: Connect MS Graph to MS Search]</a> |
 </div>
