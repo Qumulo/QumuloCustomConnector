@@ -2,7 +2,7 @@
 
 ### 🎉 Congratulations! 🎉
 
-| ![Image made by ChatGPT4o](github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/congrats.png?raw=true) |
+| ![Image made by ChatGPT4o](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/congrats.png?raw=true) |
 |----------------------------------------------|
 | *Original Art by ChatGPT4o* |
 
