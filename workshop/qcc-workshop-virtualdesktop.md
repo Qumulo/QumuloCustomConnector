@@ -30,5 +30,5 @@
 
 ---
 <div align="right">
-  | <a href="qcc-workshop-connecting.md">[Previous: Connecting to the Workshop]</a> | <a href="qcc-workshop-holstart.md">[Next: Hands-On Lab]</a> |
+  <a href="qcc-workshop-connecting.md">[Previous: Connecting to the Workshop]</a> | <a href="qcc-workshop-holstart.md">[Next: Hands-On Lab]</a>
 </div>

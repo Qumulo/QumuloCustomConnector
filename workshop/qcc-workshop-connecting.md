@@ -47,5 +47,5 @@ This workshop is designed to run the Qumulo Custom Connector (QCC) on a Windows 
 
 ---
 <div align="right">
-  | <a href="qqcc-workshop.md">[Previous: Workshop Start]</a> | <a href="qcc-workshop-virtualdesktop.md)">[Next: Your Virtual Desktop]</a> |
+  <a href="qqcc-workshop.md">[Previous: Workshop Start]</a> | <a href="qcc-workshop-virtualdesktop.md)">[Next: Your Virtual Desktop]</a>
 </div>
