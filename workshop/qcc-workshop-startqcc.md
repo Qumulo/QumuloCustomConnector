@@ -30,7 +30,7 @@
 
 **Note:** Once authenticated you can close the Internet Explorer browser window. 
 
-4. When prompted, enter a QumuloSecret vault password of your choice.
+4. When prompted, enter a QumuloSecret vault password.
     - Use an easy to remember short phrase such as `changeme`. 
     - Enter the password a second time for verification.
     - **Remember what you used!** <br><br>
@@ -39,7 +39,7 @@
 <br>
  - Press **Enter** to return to the main menu.  <br><br>
 
-**Note:** The `config.ini` file created in this step contains 3 entries: 
+**Note:** The `config.ini` file stores user identity and credentials: 
 |  |  |
 |--|--|
 | `TenantId`  | A dedicated instance of Azure AD used for authentication, for example |

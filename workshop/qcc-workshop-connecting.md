@@ -1,10 +1,10 @@
 
 # Connecting to the Workshop 
 
-This workshop is designed to run the Qumulo Custom Connector (QCC) on a Windows 10 workstation with the necessary QCC prerequisites pre-installed and configured to save you time.
-
-- You were provided a handout when you walked in the room that has your assigned Windows 10 Workstation IP Address, RDP login username, and RDP login password printed on it.
+This workshop is designed to run the Qumulo Custom Connector (QCC) on a Windows 10 workstation.
+- QCC prerequisites have been pre-installed to save lab time.
 - We will be using the <span style="color: #00a4ef;">Microsoft Remote Desktop</span> application to connect to your personally assigned Windows 10 Workstation.
+- The handout provided has your assigned Windows 10 Workstation IP Address, RDP login username, and RDP login password.
 
 ### Microsoft Windows Desktops
 

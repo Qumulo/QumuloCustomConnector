@@ -4,8 +4,8 @@
 
 ### Step 1. Review of the QumuloCustomerConnector.ps1 PowerShell script
 
-- In the PowerShell 7 command window launched in the previous step, cd to `C:\Users\Qumulo\Desktop\qcc`
-   - Do not launch the script yet! We still need to configure QCC before running the script *(coming up)*
+- In the PowerShell 7 command window you will be in the QCC subdirectory where the GitHub repo has been copied `C:\Users\Qumulo\Desktop\qcc`
+   - Do not launch QumuloCustomerConnector.ps1 yet! We need to configure it first *(coming up)*
 
 <p align="center">
   <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-open-pwsh.png" alt="QCC in pwsh">
@@ -32,7 +32,7 @@
 
 - The Qumulo Custom Connector requires four configuration files. Detailed information about each file is available in the [GitHub readme file](https://github.com/Qumulo/QumuloCustomConnector/blob/main?tab=readme-ov-file#configuration-files).
 
-- In this lab, we will customize two files: `qumulo.json` and `connection.json`. The other two files are pre-configured, but you should review them to understand how they can be used in your own projects.
+- In this lab, we will be modifying two of the JSON files: `qumulo.json` and `connection.json`. The others are pre-configured, but feel free to review them for your use case.
 
 ---
 <div align="right">

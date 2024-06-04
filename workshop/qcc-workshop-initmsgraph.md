@@ -34,6 +34,9 @@
 - **Service Performance**: The performance of the Microsoft Graph service can fluctuate based on load and resource availability on Microsoft's end.
 - **Query Complexity**: Complex queries or those involving a large amount of associated data may require more time for the API to process and return the data.
 
+![Waiting](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/woman-waiting.png)
+
+
 ### **What can be done for slow performance?**
 
 - **Check Throttling Limits**: Monitor your API usage and ensure you are not hitting throttling limits. You can also implement retry logic with exponential back-off in your script.

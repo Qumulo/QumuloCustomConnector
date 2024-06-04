@@ -40,6 +40,8 @@
     - For the workshop on June 6th, 2024, we are using "`file://anq.qcc.qumulo.net/invoices/UNIQUE_NAME`"
         *The UNIQUE_NAME is a subfolder for you to work in. Use something easy to remember like your first and last name.*
         For example: "`file://anq.qcc.qumulo.net/invoices/billgates`"
+<br>
+
 
 <p align="center">
   <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-workshop-vscode-jsons.png" alt="Example of edited config files">
