@@ -7,7 +7,7 @@ This step involves the integration with Azure Native Qumulo. The invoices are st
 - Select option '4' to import the invoices.
 - Enter the **QumuloSecret vault password** you created earlier in the workshop. (*The easy to remember one!*)
 
-![QCC input password](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-step4-enterpassword.png?raw=true)
+![QCC input password](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-step4-enterpassword.png)
 
 **What is happening in this step?**
 
@@ -19,7 +19,7 @@ This step involves the integration with Azure Native Qumulo. The invoices are st
 
 The PDFs will be listed on the screen as they are imported, as shown in the example below. <br>
 
-![Importing invoices](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-importing-invoices-38percent.png?raw=true)
+![Importing invoices](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-importing-invoices-38percent.png)
 
 ---
 <div align="right">

@@ -5,17 +5,17 @@
 
 - In a PowerShell 7 shell:
      - The default directory is set to `$env:USERPROFILE\Desktop\qcc`  <br>
-![Powershell command shell](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-powershell-cd-qcc-dir.png?raw=true)
+![Powershell command shell](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-powershell-cd-qcc-dir.png)
 - Type `QumuloCustomConnector.ps1` (or tab complete twice) and hit enter to start the script
 
 ---
 ### Step 2: Select QCC menu selection #1 to initialize QCC
 
 1. Select option '1' to initialize the Qumulo Custom Connector. <br>
-![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-menu.png?raw=true)
+![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-menu.png)
 
 2. An Internet Explorer browser will open for you to authenticate: <br>
-![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-step1-microsoft-signin.png?raw=true)
+![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-step1-microsoft-signin.png)
 <br>
 3. Use the *Entra username* and *Entra password* provided in the handout to sign in.
 
@@ -35,7 +35,7 @@
     - Enter the password a second time for verification.
     - **Remember what you used!** <br><br>
     
-![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-step1-output.png?raw=true)
+![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-step1-output.png)
 <br>
  - Press **Enter** to return to the main menu.  <br><br>
 

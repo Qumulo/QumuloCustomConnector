@@ -18,7 +18,7 @@ This workshop is designed to run the Qumulo Custom Connector (QCC) on a Windows 
   4. Click **Save**.
 
 <p align="center">
-  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-microsoft-rdp-settings.png?raw=true" alt="RDP settings">
+  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-microsoft-rdp-settings.png" alt="RDP settings">
 </p>
 <p align="center">
   <em>Example Windows RDP settings</em>
@@ -39,7 +39,7 @@ This workshop is designed to run the Qumulo Custom Connector (QCC) on a Windows 
   7. Click **Add**.
 
 <p align="center">
-  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-macos-rdp-settings.png?raw=true" alt="MacOS RDP settings">
+  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-macos-rdp-settings.png" alt="MacOS RDP settings">
 </p>
 <p align="center">
   <em>Example MacOS RDP settings</em>
@@ -53,7 +53,7 @@ This workshop is designed to run the Qumulo Custom Connector (QCC) on a Windows 
    - You will see a PowerShell command window running - *do not close this window or otherwise interrupt this process*.
    - PowerShell 7 is installing the prerequisites for QCC during the first login.
 
-   ![Installation](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-login-script-installing-microsoft-graph.png?raw=true)
+   ![Installation](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-login-script-installing-microsoft-graph.png)
 
 2. **Deploying Outside the Workshop**
    - Follow the prerequisite instructions on the [GitHub page](https://github.com/Qumulo/QumuloCustomConnector).
@@ -73,7 +73,7 @@ This workshop is designed to run the Qumulo Custom Connector (QCC) on a Windows 
    - **Launch PowerShell 7:**
      - Click the magnifier icon and search for `powershell 7`.
 
-   ![PowerShell 7](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/powershell7-launch.png?raw=true)
+   ![PowerShell 7](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/powershell7-launch.png)
 
 ---
 <div align="right">

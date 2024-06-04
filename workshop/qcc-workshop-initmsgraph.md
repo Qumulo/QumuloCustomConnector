@@ -5,7 +5,7 @@
 - Select QCC menu option #2 to connect to the Microsoft Graph connection.
    - This step is quick, and uses the Cmdlet `Connect-MgGraph` to establish a connection to Microsoft Graph <br>
 
-![Connect to the connection](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-step2-connect-to-MSGraph.png?raw=true)
+![Connect to the connection](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-step2-connect-to-MSGraph.png)
 
 ---
 ### Step 2: Create a Microsoft Graph External Connection 
@@ -18,7 +18,7 @@
 
 - Select QCC menu option #3 to create the external connection.
 
-![Create external connection](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-step3-create-ext-conn.png?raw=true)
+![Create external connection](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-step3-create-ext-conn.png)
 
 ### **What is happening in this step?**
 |  Task |  Description |

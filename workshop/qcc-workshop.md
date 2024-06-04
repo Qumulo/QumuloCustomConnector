@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qumulo-logo.png?raw=true" alt="Qumulo Logo" />
+  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qumulo-logo.png" alt="Qumulo Logo" />
 </p>
 
 # Integrating Azure Native Qumulo with Microsoft Copilot
@@ -10,7 +10,7 @@ The workshop focuses on integrating Azure Native Qumulo with Microsoft Copilot b
 
 ---
 
-![Workshop Architectural Diagram](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-workflow-diagram.png?raw=true)
+![Workshop Architectural Diagram](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-workflow-diagram.png)
 
 #### Target Audience 
 

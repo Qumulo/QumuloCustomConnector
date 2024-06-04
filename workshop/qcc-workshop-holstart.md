@@ -8,7 +8,7 @@
    - Do not launch the script yet! We still need to configure QCC before running the script *(coming up)*
 
 <p align="center">
-  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-open-pwsh.png?raw=true" alt="QCC in pwsh">
+  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-open-pwsh.png" alt="QCC in pwsh">
 </p>
 <p align="center">
   <em>Qumulo Custom Connector in PowerShell</em>

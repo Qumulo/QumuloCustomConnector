@@ -6,7 +6,7 @@
    - You will see a PowerShell command window running - *do not close this window or otherwise interrupt this process*.
    - PowerShell 7 is installing the prerequisites for QCC during the first login.
 
-   ![Installation](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-login-script-installing-microsoft-graph.png?raw=true)
+   ![Installation](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-login-script-installing-microsoft-graph.png)
 
 2. **Deploying Outside the Workshop**
    - Follow the prerequisite instructions on the [GitHub page](https://github.com/Qumulo/QumuloCustomConnector).
@@ -26,7 +26,7 @@
    - **Launch PowerShell 7:**
      - Click the magnifier icon and search for `powershell 7`.
 
-   ![PowerShell 7](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/powershell7-launch.png?raw=true)
+   ![PowerShell 7](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/powershell7-launch.png)
 
 ---
 <div align="right">

@@ -28,7 +28,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-workshop-vscode-jsons.png?raw=true" alt="Example of edited config files">
+  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-workshop-vscode-jsons.png" alt="Example of edited config files">
 </p>
 <p align="center">
   <em>Example of edited qumulo.json and connection.json files</em>
