@@ -12,6 +12,7 @@ In this section, you will use Copilot to perform natural language processing (NL
 1. Using the same Microsoft Edge web browser, navigate to the [Microsoft 365 Admin page](https://www.microsoft365.com/). `https://www.microsoft365.com/`
 
 2. Click on the Copilot icon from the left hand menu.
+  - *Note: It is the smaller of the two Copilot icons on the screen, boxed in red in the picture below*
 
 ![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/ms365-admin-page.png?raw=true)
 
@@ -22,10 +23,10 @@ In this section, you will use Copilot to perform natural language processing (NL
 
 | Prompt                                    | Results                                                                     |
 |-------------------------------------------|-----------------------------------------------------------------------------|
-| "Show me an invoice"                      | ![Show me an invoice](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-show-me-an-invoice.png?raw=true)                  |
-| "What is the sum of all invoices for Gary Larsen?" | ![sum of all invoices](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-sum-invoices-gary.png?raw=true)                    |
-| "How many total invoices are there?"      | ![How many total invoices](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-how-many-invoices.png?raw=true)                 |
-| "What is the average invoice amount?"     | ![average invoice amount](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-average-invoice.png?raw=true)                    |
+| "How many invoices are there?"                      | ![Show me an invoice](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-invoice-1.png?raw=true)  |
+| "What is the total for England?" | ![sum of all England](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-invoice-2.png?raw=true)                    |
+| "Show me the account info for Ana Heath"      | ![England invoices](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-invoice-3.png?raw=true)|
+| "Show me invoice 105184"     | ![Show me invoice 105184](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/ccopilot-invoice-4.png?raw=true)                    |
 
 ---
 <div align="right">
