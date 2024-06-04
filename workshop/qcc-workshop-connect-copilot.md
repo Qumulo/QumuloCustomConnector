@@ -26,7 +26,7 @@ In this section, you will use Copilot to perform natural language processing (NL
 | "How many invoices are there?"                      | ![Show me an invoice](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-invoice-1.png?raw=true)  |
 | "What is the total for England?" | ![sum of all England](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-invoice-2.png?raw=true)                    |
 | "Show me the account info for Ana Heath"      | ![England invoices](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-invoice-3.png?raw=true)|
-| "Show me invoice 105184"     | ![Show me invoice 105184](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/ccopilot-invoice-4.png?raw=true)                    |
+| "Show me invoice 105184"     | ![Show me invoice 105184](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/copilot-invoice-4.png?raw=true)                    |
 
 ---
 <div align="right">
