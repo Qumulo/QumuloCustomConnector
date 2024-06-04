@@ -49,6 +49,5 @@
 
 ---
 <div align="right">
-  <a href="qcc-workshop-import-invoices.md">[Previous: Import Invoices]</a> | <a href="qcc-workshop-connect-copilot.md">[Next: Using Copilot to Query Images]</a>
+  <a href="qcc-workshop-import-invoices.md">⬅️ [Previous: Import Invoices]</a> | <a href="qcc-workshop-connect-copilot.md">[Next: Using Copilot to Query Images] ➡️ </a>
 </div>
-

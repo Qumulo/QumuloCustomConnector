@@ -22,3 +22,8 @@ In this workshop, we covered how to use the Qumulo Custom Connector to extract s
 #### Authors:
 - [kmac@qumulo.com](mailto:kmac@qumulo.com), Workshop Architect and Lead Presenter
 - [berat@qumulo.com](mailto:berat@qumulo.com), PowerShell Developer Extraordinaire
+
+---
+<div align="right">
+  <a href="qcc-workshop-connect-copilot.md">⬅️ [Previous: Using Copilot to Query Images]</a> 
+</div>

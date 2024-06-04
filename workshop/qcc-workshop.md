@@ -40,5 +40,5 @@ In this hands-on lab, you will use the Qumulo Custom Connector to extract simula
 
 ---
 <div align="right">
-  <a href="qcc-workshop-connecting.md">[Next: Connecting to the Workshop]</a>
+  <a href="qcc-workshop-connecting.md">[Next: Connecting to the Workshop] ➡️ </a>
 </div>

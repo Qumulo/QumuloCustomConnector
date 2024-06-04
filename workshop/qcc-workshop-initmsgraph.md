@@ -59,5 +59,5 @@ See this [Microsoft Learn page](https://learn.microsoft.com/en-us/outlook/action
 
 ---
 <div align="right">
-  <a href="qcc-workshop-startqcc.md">[Previous: Start QCC]</a> | <a href="qcc-workshop-import-invoices.md">[Next: Import Invoices]</a>
+  <a href="qcc-workshop-startqcc.md">⬅️ [Previous: Start QCC]</a> | <a href="qcc-workshop-import-invoices.md">[Next: Import Invoices] ➡️ </a>
 </div>
