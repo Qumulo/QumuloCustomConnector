@@ -5,12 +5,11 @@
 - Using your editor of choice, open `qumulo.json` and `connection.json` located in the QCC folder on your Desktop.
    - Visual Studio Code, Notepad++, and Notepad are available on the virtual desktop.
 
-![Opening the Config Files with Notepad++](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-workshop-vscode-jsons.png?raw=true)
-
 #### Changes to make to **qumulo.json:**
 
 - In the `qumulo.json` file, change the `clusterAddress` and `shareName` to match the values provided in your handout.
-- Set the `tempFilePath` to `C:\\Users\Qumulo\Desktop\qcc\Invoices_temp.txt` 
+- Set the `tempFilePath` to `C:\\Users\\Qumulo\\Desktop\\qcc\\Invoices_temp.txt` 
+    - *Example of edited qumulo.json and connection.json files are after the instructions*
 
 #### Changes to make to **connection.json**
 
@@ -27,38 +26,13 @@
 | Length | The ID must be between 3 and 10 characters in length |
 | Uniqueness | Each connection ID must be unique within the tenant |
 
-Example **qumulo.json** file:
 
-```
-{
-    "clusterAddress" : "10.0.0.4",  # Use the ANQ IP Address on the handout
-    "shareName" : "invoices",       # Use the share name on the handout
-    "filePrefix" : "*.pdf",
-    "tempFilePath" : "C:\\Invoice_Temp.txt"
-}
-```
-Example **connection.json** file:
-```
-{
-    "appDisplayName" : "Content Search on Qumulo",
-    "appSecretName" : "kmaconyxia",
-    "userId" : "71608eb0-9c49-4a21-a77b-f8f3d66d4289",
-    "connection" :{
-        "id" : "QumuloConnector",
-        "name" : "Invoice Data on Qumulo",
-        "description" : "Invoice data including products, amounts, and customer details"
-    },
-    "activitySettings" : {
-        "baseUrl" : "file://10.0.0.4/invoices/",  # Use the information from the handout
-        "urlPattern" : "/Invoice(?<invoiceNumber>[^/]+).pdf",
-        "itemId" : "{invoiceNumber}"
-    },
-    "searchSettings":{
-        "id" : "invoiceTemplate",
-        "layoutFilePath" : ".\\resultLayout.json" 
-    }
-}
-```
+<p align="center">
+  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-workshop-vscode-jsons.png?raw=true" alt="Example of edited config files">
+</p>
+<p align="center">
+  <em>Example of edited qumulo.json and connection.json files</em>
+</p>
 
 ---
 <div align="right">
