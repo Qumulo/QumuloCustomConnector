@@ -30,14 +30,17 @@
 
 **This step takes a few minutes:** The duration for schema provisioning can vary significantly based on a few factors:
 
+![Waiting](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/woman-waiting.png)
+
 - **API Throttling**: Microsoft Graph API imposes throttling limits to ensure equitable usage among all users.
 - **Service Performance**: The performance of the Microsoft Graph service can fluctuate based on load and resource availability on Microsoft's end.
 - **Query Complexity**: Complex queries or those involving a large amount of associated data may require more time for the API to process and return the data.
 
-![Waiting](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/woman-waiting.png)
 
 
 ### **What can be done for slow performance?**
+
+![Performance Gauge](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/performance-gauge.png)
 
 - **Check Throttling Limits**: Monitor your API usage and ensure you are not hitting throttling limits. You can also implement retry logic with exponential back-off in your script.
     - Microsoft Graph API responses include headers that indicate if throttling is occurring. Key headers to look for are:
@@ -47,6 +50,7 @@
     - In QCC, the query is retrieving data, so there is not much to optimize.
 - **Use Filters**: If the Cmdlet supports filters, use them to limit the amount of data being fetched to only what is necessary.
     - In QCC, the `Update-MgExternalConnectionSchema` Cmdlet doesn't support query filters. Instead, optimizations would require defining and updating the schema properties.  <br>
+
 
 ### What is ***adaptive card layout***?
 
