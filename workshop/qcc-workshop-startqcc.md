@@ -4,11 +4,9 @@
 ### Step 1: Run the Qumulo Custom Connector PowerShell Script
 
 - In a PowerShell 7 shell:
-     - Change directory to $env:USERPROFILE\Desktop\qcc 
-  `cd $env:USERPROFILE\Desktop\qcc`  <br>
-![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-powershell-cd-qcc-dir.png?raw=true)
-  
-- Hit enter to start the `QumuloCustomConnector.ps1` script
+     - The default directory is set to `$env:USERPROFILE\Desktop\qcc`  <br>
+![Powershell command shell](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-powershell-cd-qcc-dir.png?raw=true)
+- Type `QumuloCustomConnector.ps1` (or tab complete twice) and hit enter to start the script
 
 ---
 ### Step 2: Select QCC menu selection #1 to initialize QCC

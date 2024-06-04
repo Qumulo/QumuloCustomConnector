@@ -45,7 +45,7 @@ This workshop is designed to run the Qumulo Custom Connector (QCC) on a Windows 
   <em>Example MacOS RDP settings</em>
 </p>
 
-## Your Virtual Desktop
+## Login to Your Virtual Desktop
 
 1. **Log In**
    - Click the RDP connection in the Remote Desktop Application.

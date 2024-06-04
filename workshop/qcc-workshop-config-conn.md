@@ -5,7 +5,7 @@
 - Using your editor of choice, open `qumulo.json` and `connection.json` located in the QCC folder on your Desktop.
    - Visual Studio Code, Notepad++, and Notepad are available on the virtual desktop.
 
-![Opening the Config Files with Notepad++](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-open-config-files-confs.png?raw=true)
+![Opening the Config Files with Notepad++](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-workshop-vscode-jsons.png?raw=true)
 
 #### Changes to make to **qumulo.json:**
 
