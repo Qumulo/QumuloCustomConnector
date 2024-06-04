@@ -36,5 +36,5 @@
 
 ---
 <div align="right">
-  <a href="qcc-workshop-virtualdesktop.md">[Previous: Your Virtual Desktop]</a> | <a href="qcc-workshop-config-conn.md">[Next: Configure the Qumulo Custom Connector]</a>
+  <a href="qcc-workshop-connecting.md">[Previous: Connecting to the Workshop]</a> | <a href="qcc-workshop-config-conn.md">[Next: Configure the Qumulo Custom Connector]</a>
 </div>

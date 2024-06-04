@@ -53,6 +53,10 @@
 
 See this [Microsoft Learn page](https://learn.microsoft.com/en-us/outlook/actionable-messages/adaptive-card) to learn more
 
+### While you wait...
+- You have a few minutes to multi-task: check messages, read the powershell script, or even learn something new using <a href="https://chat.openai.com/">ChatGPT!</a>
+
+
 ---
 <div align="right">
   <a href="qcc-workshop-startqcc.md">[Previous: Start QCC]</a> | <a href="qcc-workshop-import-invoices.md">[Next: Import Invoices]</a>
