@@ -40,6 +40,9 @@
     - For the workshop on June 6th, 2024, we are using "`file://anq.qcc.qumulo.net/invoices/UNIQUE_NAME`"
         *The UNIQUE_NAME is a subfolder for you to work in. Use something easy to remember like your first and last name.*
         For example: "`file://anq.qcc.qumulo.net/invoices/billgates`"
+
+  - Create the new sub-directory.
+    - You can use File Explorer, or in PowerShell enter `mkdir billgates` *(but use the name you chose!)*
 <br>
 
 
