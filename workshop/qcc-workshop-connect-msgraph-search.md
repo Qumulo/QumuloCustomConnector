@@ -9,7 +9,7 @@
 ![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/ms365-admin-center.png)
 
 3. Open the "Search & intelligence" page by navigating the right-hand menu ("Show all > Settings > Search & intelligence")
-    - **"Show all"** is on the bottom of the right hand menu under "Microsoft 365 admin center"
+    - **"Show all"** is on the bottom of the left-hand menu under "Microsoft 365 admin center"
     - **"Settings"** will appear a once you click "Show all"
     - **"Search & Intelligence"** will appear after you click "Settings"
 

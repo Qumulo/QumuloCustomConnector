@@ -3,7 +3,7 @@
 ### Step 1: Initialize the Microsoft Graph Connection 
 
 - Select QCC menu option #2 to connect to the Microsoft Graph connection.
-   - This step is quick, and uses the Cmdlet `Connect-MgGraph` to establish a connection to Microsoft Graph <br>
+   - This step uses the Cmdlet `Connect-MgGraph` to establish a connection to Microsoft Graph <br>
 
 ![Connect to the connection](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-step2-connect-to-MSGraph.png)
 

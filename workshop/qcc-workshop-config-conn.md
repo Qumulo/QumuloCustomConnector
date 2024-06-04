@@ -5,20 +5,30 @@
 - Using your editor of choice, open `qumulo.json` and `connection.json` located in the QCC folder on your Desktop.
    - Visual Studio Code, Notepad++, and Notepad are available on the virtual desktop.
 
-#### Changes to make to **qumulo.json:**
+<p align="center">
+  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/explorer-showing-json-files.png" alt="File Explorer Example">
+</p>
+<p align="center">
+  <em>Example File Explorer of qcc directory</em>
+</p>
 
-- In the `qumulo.json` file, change the `clusterAddress` and `shareName` to match the values provided in your handout.
-- Set the `tempFilePath` to `C:\\Users\\Qumulo\\Desktop\\qcc\\Invoices_temp.txt` 
-    - *Example of edited qumulo.json and connection.json files are after the instructions*
+#### Changes for **qumulo.json:**
 
-#### Changes to make to **connection.json**
+- In the `qumulo.json` file, change the `clusterAddress`, `shareName`, and `tempFilePath` to match the values provided in your handout.
+    - For the workshop on June 6th, 2024, we are using:
+        - "anq.qcc.qumulo.com" for the `clusterAddress`
+        - "invoices" for the `shareName`
+        - "`C:\\Users\\Qumulo\\Desktop\\qcc\\Invoices_temp.txt`" for the `tempFilePath`
 
-- In the `connection.json` file, update the `baseUrl`-> `activitySetting` similarly.
-- In the `connection.json` file, set the `appSecretName` to a **unique** value
+    - *Example of edited qumulo.json and connection.json files are further down on this page.* 
+
+#### Changes for **connection.json**
+
+- Change the `connection` -> `id` to a **unique** value
    - For this workshop you can use an easy-to-remember connection ID, such as your nickname and pet name combined.
+   - The connection ID naming requirements *(below)*, require that these are unique for all attendees. *(Don't use special characters, and 3 -> 10 characters in length.)*
       - Write the connection ID you used in this step down or save it on your laptop for future use.
-      - For example: *kmaconyxia*
-   - Here are the connection ID requirements:
+      - For example: *kmacsdad*
 
 |Requirement|Description  |
 |--|--|
@@ -26,6 +36,10 @@
 | Length | The ID must be between 3 and 10 characters in length |
 | Uniqueness | Each connection ID must be unique within the tenant |
 
+  - Update the `activitySettings` -> `baseUrl` value to match the UNC path in the handout
+    - For the workshop on June 6th, 2024, we are using "`file://anq.qcc.qumulo.net/invoices/UNIQUE_NAME`"
+        *The UNIQUE_NAME is a subfolder for you to work in. Use something easy to remember like your first and last name.*
+        For example: "`file://anq.qcc.qumulo.net/invoices/billgates`"
 
 <p align="center">
   <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-workshop-vscode-jsons.png" alt="Example of edited config files">
