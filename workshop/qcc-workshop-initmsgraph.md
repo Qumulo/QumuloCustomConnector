@@ -40,7 +40,7 @@
 
 ### **What can be done for slow performance?**
 
-![Performance Gauge](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/perf-gauge2.png)
+![Performance Gauge](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/perf-gauge2.jpg)
 
 - **Check Throttling Limits**: Monitor your API usage and ensure you are not hitting throttling limits. You can also implement retry logic with exponential back-off in your script.
     - Microsoft Graph API responses include headers that indicate if throttling is occurring. Key headers to look for are:
