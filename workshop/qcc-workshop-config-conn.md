@@ -16,7 +16,7 @@
 
 - In the `qumulo.json` file, change the `clusterAddress`, `shareName`, and `tempFilePath` to match the values provided in your handout.
     - For the workshop on June 6th, 2024, we are using:
-        - "anq.qcc.qumulo.com" for the `clusterAddress`
+        - "anq.qcc.qumulo.net" for the `clusterAddress`
         - "invoices" for the `shareName`
         - "`C:\\Users\\Qumulo\\Desktop\\qcc\\Invoices_temp.txt`" for the `tempFilePath`
 
