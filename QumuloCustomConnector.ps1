@@ -286,6 +286,19 @@ function CreateAConnection {
         Write-Host "Loading connection details from $connectionFilePath"
         $connectionDetails = Get-Content -Path $connectionFilePath -Raw | ConvertFrom-Json
 
+        if ($($connectionDetails.connection.id).Length -ge 12) {
+            Write-Host "The connection ID needs to be less than 12 characters." -ForegroundColor Red
+            exit 1
+        }
+    
+        # Check if the connection id contains only A-Z, a-z, 0-9
+        if ($($connectionDetails.connection.id) -match '^[a-zA-Z0-9]+$') {
+            Write-Host "The connection ID is defined."
+        } else {
+            Write-Host "The connection ID contains invalid characters. The connection ID can only contain alphanumeric characters (A-Z, a-z, 0-9)" -ForegroundColor Red
+            exit 1
+        }
+        
         Write-Host "Loading adaptive card layout"
         [hashtable]$adaptiveCard = @{}
         $adaptiveCard += Get-Content -Path $connectionDetails.searchSettings.layoutFilePath -Raw | ConvertFrom-Json -AsHashtable
