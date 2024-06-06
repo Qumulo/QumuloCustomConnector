@@ -12,24 +12,24 @@
   <em>Example File Explorer of the QCC directory</em>
 </p>
 
-#### Modifications to Make in the **qumulo.json** File:
+#### Modifications to make in the **qumulo.json** File:
 
 - In the `qumulo.json` file, update the `clusterAddress`, `shareName`, and `tempFilePath` values to match those provided in your handout.
     - For the workshop on June 6th, 2024, use the following values:
         - `clusterAddress`: `anq.qcc.qumulo.net`
         - `shareName`: `invoices`
-        - `tempFilePath`: `C:\\Users\\Qumulo\\Desktop\\qcc\\Invoices_temp.txt`
+        - `tempFilePath`: `C:\\Users\\Qumulo\\Desktop\\qcc\\Invoices_temp.txt` <br>
             *(Ensure all backslashes are escaped in this JSON file)*
 
     - An example of edited `qumulo.json` and `connection.json` files is provided further down on this page.
 
-#### Modifications to Make in the **connection.json** File:
+#### Modifications to make in the **connection.json** File:
 
 - Change the `connection` -> `id` to a **unique** value.
    - For this workshop, you can use an easy-to-remember connection ID, such as a combination of your nickname and pet's name.
    - The connection ID must meet the following requirements:
       - Write down or save the connection ID you used for future reference.
-      - For example: `kmacsdad`
+      - For example: `grumpquat`
 
 | Requirement       | Description                                                                          |
 |-------------------|--------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@
 - Update the `activitySettings` -> `baseUrl` value to match the UNC path provided in the handout.
     - For the workshop on June 6th, 2024, use: `file://anq.qcc.qumulo.net/invoices/UNIQUE_NAME`
 
-| *UNIQUE_NAME* is a subfolder where you can save the workshop invoices (PDFs). Choose something that is unique and easy for you to remember. |
+| *UNIQUE_NAME* is a subfolder where you can save the workshop invoices (PDFs). <br> Choose something that is unique and easy for you to remember. |
 |------------------------------------------------------------------------------------------------------------------------------------------|
 | For example: `file://anq.qcc.qumulo.net/invoices/grumpquat`                                                                              |
 
