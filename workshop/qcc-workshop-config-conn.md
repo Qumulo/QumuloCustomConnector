@@ -40,8 +40,10 @@
 - Update the `activitySettings` -> `baseUrl` value to match the UNC path provided in the handout.
     - For the workshop on June 6th, 2024, use: `file://anq.qcc.qumulo.net/invoices/UNIQUE_NAME`
 
-| *UNIQUE_NAME* is a subfolder where you can save the workshop invoices (PDFs). <br> Choose something that is unique and easy for you to remember. |
+| *Tips* |
 |------------------------------------------------------------------------------------------------------------------------------------------|
+| *UNIQUE_NAME* is a subfolder where you can save the workshop invoices (PDFs). <br> Choose something that is unique and easy for you to remember. |
+
 | For example: `file://anq.qcc.qumulo.net/invoices/grumpquat`                                                                              |
 
 - Next, create a uniquely named sub-directory in `\\anq.qcc.qumulo.net\invoices`.
