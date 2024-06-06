@@ -24,7 +24,7 @@
       <p><em>"Settings" location in menu</em></p>
     </td>
     <td align="center">
-      <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/ms365-adminctr-search.png.png" alt="Search" style="width: 200px;">
+      <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/ms365-adminctr-search.png" alt="Search" style="width: 200px;">
       <p><em>"Search & Intelligence" location in menu</em></p>
     </td>
   </tr>
