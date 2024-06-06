@@ -28,6 +28,8 @@
 | 3. | Loads the adaptive card layout |
 <br>
 
+---
+
 <p align="center">
   <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/woman-waiting.png" alt="Waiting">
 </p>
@@ -43,6 +45,8 @@
   <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/perf-gauge2.jpg" alt="Performance Gauge">
 </p>
 
+---
+
 ### **What can be done for slow performance?**
 
 - **Check Throttling Limits**: Monitor your API usage and ensure you are not hitting throttling limits. You can also implement retry logic with exponential back-off in your script.
@@ -54,6 +58,7 @@
 - **Use Filters**: If the Cmdlet supports filters, use them to limit the amount of data being fetched to only what is necessary.
     - In QCC, the `Update-MgExternalConnectionSchema` Cmdlet doesn't support query filters. Instead, optimizations would require defining and updating the schema properties.  <br>
 
+---
 
 ### What is ***adaptive card layout***?
 
