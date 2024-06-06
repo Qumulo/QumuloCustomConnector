@@ -65,7 +65,7 @@
 
 - Inspect the Q:\hostname folder on the ANQ cluster 
     - Confirm that there are PDFs in the folder.
-    - You may review a few PDFs to familiarize yourself with the content.
+    - Review a few PDFs to familiarize yourself with the content.
 
 <p align="center">
   <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/list-invoices.png" alt="Invoices directory listing">
