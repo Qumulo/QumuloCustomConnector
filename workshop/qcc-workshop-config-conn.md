@@ -56,8 +56,7 @@
   <em>Options to determine your HOSTNAME</em>
 </p>
 
-    - An example of edited `qumulo.json` and `connection.json` files is provided further down on this page.
-
+**Example `qumulo.json` and `connection.json` files:**
 
 <p align="center">
   <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-workshop-vscode-jsons.png" alt="Example of edited config files">
