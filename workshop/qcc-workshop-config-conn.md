@@ -39,13 +39,12 @@
   - Update the `activitySettings` -> `baseUrl` value to match the UNC path in the handout
     - For the workshop on June 6th, 2024, we are using "`file://anq.qcc.qumulo.net/invoices/UNIQUE_NAME`" <br>
 
-| *The UNIQUE_NAME is a subfolder for you to personally work in. Use something easy to remember like your first and last name.* |
+| *UNIQUE_NAME* is a subfolder where you can save the workshop invoices (pdf's) in. Choose something that is unique and easy for you to remember. |
 |--------------------------------------------------------------------------------------------------------------------------------|
 | For example: "`file://anq.qcc.qumulo.net/invoices/grumpquat`"                                                                  |
 
-  - Create a sub-directory for the UNIQUE_NAME folder you created in `\\anq.qcc.qumulo.net\invoices`
-    - You can use File Explorer, or in PowerShell enter `mkdir \\anq.qcc.qumulo.net\invoices\grumpquat` *(but use the name you chose!)*
-<br>
+- Next, create a uniquely named sub-directory in `\\anq.qcc.qumulo.net\invoices`.
+> For example, in PowerShell you can run *mkdir `\\anq.qcc.qumulo.net\invoices\grumpquat`* (but use the name you chose!)
 
 
 <p align="center">
