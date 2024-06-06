@@ -41,11 +41,11 @@
 - **Service Performance**: The performance of the Microsoft Graph service can fluctuate based on load and resource availability on Microsoft's end.
 - **Query Complexity**: Complex queries or those involving a large amount of associated data may require more time for the API to process and return the data.
 
+---
+
 <p align="center">
   <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/perf-gauge2.jpg" alt="Performance Gauge">
 </p>
-
----
 
 ### **What can be done for slow performance?**
 
@@ -73,7 +73,8 @@ See this [Microsoft Learn page](https://learn.microsoft.com/en-us/outlook/action
   <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/adaptivecard_layout.png" alt="Example Adaptive Card">
 </p>
 <p align="center">
-  <em>Visual example of an adaptive card layout in use.</em>
+  <em>Visual example of an adaptive card layout in use</em>
+  <em>(Card layout on the left and rendered on the right)</em>
 </p>
 
 ### While you wait...
