@@ -49,14 +49,13 @@
 | For example: `Q://qcc-38`                                            |
 
 
+** Options on how to verify your HOSTNAME:
+
 <p align="center">
   <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/hostname.png" alt="Display hostname">
 </p>
-<p align="center">
-  <em>Options to determine your HOSTNAME</em>
-</p>
 
-**Example `qumulo.json` and `connection.json` files:**
+**Example** `qumulo.json` and `connection.json` files:
 
 <p align="center">
   <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-workshop-vscode-jsons.png" alt="Example of edited config files">
