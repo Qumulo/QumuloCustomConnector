@@ -42,6 +42,7 @@
 
 - Update the `activitySettings` -> `baseUrl` value to match the UNC path provided in the handout.
     - For the workshop on June 6th, 2024, use: `file://anq.qcc.qumulo.net/invoices/HOSTNAME`
+    - Where HOSTNAME is your computers name (Ie: `$env:COMPUTERNAME`)
 
 | *Tip* |
 |------------------------------------------------------------------------------------------------------------------------------------------|
@@ -63,7 +64,7 @@
         `net use /persist:yes Q: \\anq.qcc.qumulo.net\invoices`
     - You can also mount the drive using Windows Explorer "Map Network Drive" 
 
-- Inspect the Q:\hostname folder on the ANQ cluster 
+- Inspect the Q:\HOSTNAME folder on the ANQ cluster 
     - Confirm that there are PDFs in the folder.
     - Review a few PDFs to familiarize yourself with the content.
 
