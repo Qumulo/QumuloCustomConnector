@@ -73,7 +73,7 @@ See this [Microsoft Learn page](https://learn.microsoft.com/en-us/outlook/action
   <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/adaptivecard_layout.png" alt="Example Adaptive Card">
 </p>
 <p align="center">
-  <em>Visual example of an adaptive card layout in use</em>
+  <em>Visual example of an adaptive card layout in use</em> <br>
   <em>(Card layout on the left and rendered on the right)</em>
 </p>
 

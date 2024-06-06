@@ -13,13 +13,22 @@
     - **"Settings"** will appear a once you click "Show all"
     - **"Search & Intelligence"** will appear after you click "Settings"
 
-
-<p align="center">
-  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/ms365-adminctr-showall.png" alt="Show All">
-</p>
-<p align="center">
-  <em>"Show All" location</em>
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/ms365-adminctr-showall.png" alt="Show All" style="width: 200px;">
+      <p><em>"Show All" location in menu</em></p>
+    </td>
+    <td align="center">
+      <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/ms365-adminctr-settings.png" alt="Settings" style="width: 200px;">
+      <p><em>"Settings" location in menu</em></p>
+    </td>
+    <td align="center">
+      <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/ms365-adminctr-search.png.png" alt="Search" style="width: 200px;">
+      <p><em>"Search & Intelligence" location in menu</em></p>
+    </td>
+  </tr>
+</table>
 
 4. Navigate to "Data Sources", the third tab under "Search & intelligence".
 
