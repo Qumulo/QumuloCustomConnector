@@ -28,22 +28,18 @@
 | 3. | Loads the adaptive card layout |
 <br>
 
-**This step takes a few minutes:** The duration for schema provisioning can vary significantly based on a few factors:
-
-<p align="center">
-  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/woman-waiting.png" alt="Waiting">
+<p>
+  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/woman-waiting.png" alt="Waiting" style="vertical-align: middle; margin-right: 10px;">
+  <strong>This step takes a few minutes:</strong> The duration for schema provisioning can vary significantly based on a few factors:
 </p>
 
 - **API Throttling**: Microsoft Graph API imposes throttling limits to ensure equitable usage among all users.
 - **Service Performance**: The performance of the Microsoft Graph service can fluctuate based on load and resource availability on Microsoft's end.
 - **Query Complexity**: Complex queries or those involving a large amount of associated data may require more time for the API to process and return the data.
 
-
-
-### **What can be done for slow performance?**
-
-<p align="center">
-  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/perf-gauge2.jpg" alt="Performance Gauge">
+<p>
+  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/perf-gauge2.jpg" alt="Performance Gauge" style="vertical-align: middle; margin-right: 10px;">
+  <strong>What can be done for slow performance?</strong>
 </p>
 
 - **Check Throttling Limits**: Monitor your API usage and ensure you are not hitting throttling limits. You can also implement retry logic with exponential back-off in your script.
@@ -64,9 +60,8 @@
 
 See this [Microsoft Learn page](https://learn.microsoft.com/en-us/outlook/actionable-messages/adaptive-card) to learn more
 
-
 <p align="center">
-  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/adaptivecard_layout.jpg" alt="Example Adaptive Card">
+  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/adaptivecard_layout.png" alt="Example Adaptive Card">
 </p>
 <p align="center">
   <em>Visual example of an adaptive card layout in use.</em>
