@@ -17,6 +17,7 @@
 2. An Internet Explorer browser will open for you to authenticate: <br>
 ![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-step1-microsoft-signin.png)
 <br>
+
 3. Use the *Entra username* and *Entra password* provided in the handout to sign in.
 
 **What is happening when initializing QCC?**
