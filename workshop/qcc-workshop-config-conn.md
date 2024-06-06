@@ -19,7 +19,7 @@
         - `clusterAddress`: `anq.qcc.qumulo.net`
         - `shareName`: `invoices`
         - `tempFilePath`: `C:\\Users\\Qumulo\\Desktop\\qcc\\Invoices_temp.txt` <br>
-            *(Ensure all backslashes are escaped in this JSON file)*
+            *(We need to ensure that all backslashes are escaped in the path name)*
 
     - An example of edited `qumulo.json` and `connection.json` files is provided further down on this page.
 
@@ -40,10 +40,9 @@
 - Update the `activitySettings` -> `baseUrl` value to match the UNC path provided in the handout.
     - For the workshop on June 6th, 2024, use: `file://anq.qcc.qumulo.net/invoices/UNIQUE_NAME`
 
-| *Tips* |
+| *Tip* |
 |------------------------------------------------------------------------------------------------------------------------------------------|
 | *UNIQUE_NAME* is a subfolder where you can save the workshop invoices (PDFs). <br> Choose something that is unique and easy for you to remember. |
-
 | For example: `file://anq.qcc.qumulo.net/invoices/grumpquat`                                                                              |
 
 - Next, create a uniquely named sub-directory in `\\anq.qcc.qumulo.net\invoices`.

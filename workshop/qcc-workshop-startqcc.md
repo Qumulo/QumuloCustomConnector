@@ -31,7 +31,7 @@
 **Note:** Once authenticated you can close the Internet Explorer browser window. 
 
 4. When prompted, enter a QumuloSecret vault password.
-    - Use an easy to remember short phrase such as `changeme`. 
+    - Use an easy to remember short phrase such as `changeme`, `password`, or `letmein`. 
     - Enter the password a second time for verification.
     - **Remember what you used!** <br><br>
     

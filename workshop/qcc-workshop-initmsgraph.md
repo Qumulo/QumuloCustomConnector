@@ -30,7 +30,9 @@
 
 **This step takes a few minutes:** The duration for schema provisioning can vary significantly based on a few factors:
 
-![Waiting](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/woman-waiting.png)
+<p align="center">
+  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/woman-waiting.png" alt="Waiting">
+</p>
 
 - **API Throttling**: Microsoft Graph API imposes throttling limits to ensure equitable usage among all users.
 - **Service Performance**: The performance of the Microsoft Graph service can fluctuate based on load and resource availability on Microsoft's end.
@@ -40,7 +42,9 @@
 
 ### **What can be done for slow performance?**
 
-![Performance Gauge](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/perf-gauge2.jpg)
+<p align="center">
+  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/perf-gauge2.jpg" alt="Performance Gauge">
+</p>
 
 - **Check Throttling Limits**: Monitor your API usage and ensure you are not hitting throttling limits. You can also implement retry logic with exponential back-off in your script.
     - Microsoft Graph API responses include headers that indicate if throttling is occurring. Key headers to look for are:
@@ -59,6 +63,14 @@
 - The Qumulo Custom Connector (QCC) uses an adaptive card for displaying the invoice information on the screen in the file named `resultLayout.json`.
 
 See this [Microsoft Learn page](https://learn.microsoft.com/en-us/outlook/actionable-messages/adaptive-card) to learn more
+
+
+<p align="center">
+  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/adaptivecard_layout.jpg" alt="Example Adaptive Card">
+</p>
+<p align="center">
+  <em>Visual example of an adaptive card layout in use.</em>
+</p>
 
 ### While you wait...
 - You have a few minutes to multi-task: check messages, read the powershell script, or even learn something new using <a href="https://chat.openai.com/">ChatGPT!</a>
