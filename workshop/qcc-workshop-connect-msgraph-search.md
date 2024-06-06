@@ -17,15 +17,15 @@
   <tr>
     <td align="center">
       <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/ms365-adminctr-showall.png" alt="Show All" style="width: 200px;">
-      <p><em>"Show All" location in menu</em></p>
+      <p><em>"Show All"</em></p>
     </td>
     <td align="center">
       <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/ms365-adminctr-settings.png" alt="Settings" style="width: 200px;">
-      <p><em>"Settings" location in menu</em></p>
+      <p><em>"Settings"</em></p>
     </td>
     <td align="center">
       <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/ms365-adminctr-search.png" alt="Search" style="width: 200px;">
-      <p><em>"Search & Intelligence" location in menu</em></p>
+      <p><em>"Search & Intelligence"</em></p>
     </td>
   </tr>
 </table>
@@ -40,13 +40,13 @@
 
 ![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/ms365-search-intel-find-conn.png)
 
-6. Click "Add staging" to the left of your connection ID
+6. Click "Add staging" to the left of your connection ID <br>
     *- This will being up a frame on the right side of the browser.* 
 
 7. Enter "All Company", under "Select users and user groups"
    - Select the "All Company" group when it appears below. <br>
 ![enter image description here](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/ms365-search-intel-add-all-company.png)
-   - Click save and then close.
+   - Click save and then close. <br>
     *- This will bring you back to the Search & Intelligence main page*
 
 8. Click the "Include Connector Results" link to the left of  your connection ID, and then click OK. <br>
