@@ -49,19 +49,16 @@
 | For example: `Q://qcc-38`                                            |
 
 
-** Options on how to verify your HOSTNAME:
+1. **Options** on validating the HOSTNAME:
 
 <p align="center">
   <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/hostname.png" alt="Display hostname">
 </p>
 
-**Example** `qumulo.json` and `connection.json` files:
+2. **Example** of edited `qumulo.json` and `connection.json` files:
 
 <p align="center">
   <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-workshop-vscode-jsons.png" alt="Example of edited config files">
-</p>
-<p align="center">
-  <em>Example of edited qumulo.json and connection.json files</em>
 </p>
 
 ### Step 2: Validate the PDF's in the ANQ SMB folder
