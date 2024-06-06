@@ -12,17 +12,18 @@
   <em>Example File Explorer of qcc directory</em>
 </p>
 
-#### Modifications for the **qumulo.json:** file
+#### Modifications to make in the **qumulo.json:** file:
 
 - In the `qumulo.json` file, change the `clusterAddress`, `shareName`, and `tempFilePath` to match the values provided in your handout.
     - For the workshop on June 6th, 2024, we are using:
-        - "**anq.qcc.qumulo.net**" for the `clusterAddress`
-        - "**invoices**" for the `shareName`
+        - **anq.qcc.qumulo.net** for the `clusterAddress`
+        - **invoices** for the `shareName`
         - "`C:\\Users\\Qumulo\\Desktop\\qcc\\Invoices_temp.txt`" for the `tempFilePath`
+            *(We need to escape all of the backslashes in this json file)*
 
-    - *Example of edited qumulo.json and connection.json files are further down on this page.* 
+    - There is an *Example of edited qumulo.json and connection.json files further down on this page.* 
 
-#### Modifications for the **connection.json** file
+#### Modifications to make in the **connection.json** file:
 
 - Change the `connection` -> `id` to a **unique** value
    - For this workshop you can use an easy-to-remember connection ID, such as your nickname and pet name combined.
