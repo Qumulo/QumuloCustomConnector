@@ -22,7 +22,6 @@
 | `clusterAddress` | anq.qcc.qumulo.net                                  |
 | `shareName`      | invoices                                            |
 | `tempFilePath`   | `C:\\Users\\Qumulo\\Desktop\\qcc\\Invoices_temp.txt`  |
-
 <br> *(verify that all backslashes are escaped in the path name)* 
 
     - An example of edited `qumulo.json` and `connection.json` files is provided further down on this page.
@@ -57,18 +56,22 @@
 </p>
 
 
-### Step 2: Validate the PDF's on ANQ 
+### Step 2: Validate the PDF's in the ANQ SMB folder
 
-- Mount the Qumulo invoices SMB share in Windows
+- Mount the Qumulo invoices SMB share to the `Q:` drive
     - In another PowerShell, or Windows Command shell, run:
         `net use /persist:yes Q: \\anq.qcc.qumulo.net\invoices`
-- Inspect the folder name that matches your hostname on the ANQ cluster `\\anq.qcc.qumulo.net\invoices`.
+    - You can also mount the drive using Windows Explorer "Map Network Drive" 
+
+- Inspect the Q:\hostname folder on the ANQ cluster 
+    - Confirm that there are PDFs in the folder.
+    - You may review a few PDFs to familiarize yourself with the content.
 
 <p align="center">
   <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/list-invoices.png" alt="Invoices directory listing">
 </p>
 <p align="center">
-  <em>Example of staged invoices</em>
+  <em>Example of prestaged invoices</em>
 </p>
 
 
