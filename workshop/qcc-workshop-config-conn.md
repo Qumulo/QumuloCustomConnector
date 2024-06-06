@@ -12,17 +12,17 @@
   <em>Example File Explorer of qcc directory</em>
 </p>
 
-#### Changes for **qumulo.json:**
+#### Modifications for the **qumulo.json:** file
 
 - In the `qumulo.json` file, change the `clusterAddress`, `shareName`, and `tempFilePath` to match the values provided in your handout.
     - For the workshop on June 6th, 2024, we are using:
-        - "anq.qcc.qumulo.net" for the `clusterAddress`
-        - "invoices" for the `shareName`
+        - "**anq.qcc.qumulo.net**" for the `clusterAddress`
+        - "**invoices**" for the `shareName`
         - "`C:\\Users\\Qumulo\\Desktop\\qcc\\Invoices_temp.txt`" for the `tempFilePath`
 
     - *Example of edited qumulo.json and connection.json files are further down on this page.* 
 
-#### Changes for **connection.json**
+#### Modifications for the **connection.json** file
 
 - Change the `connection` -> `id` to a **unique** value
    - For this workshop you can use an easy-to-remember connection ID, such as your nickname and pet name combined.
@@ -37,12 +37,14 @@
 | Uniqueness | Each connection ID must be unique within the tenant |
 
   - Update the `activitySettings` -> `baseUrl` value to match the UNC path in the handout
-    - For the workshop on June 6th, 2024, we are using "`file://anq.qcc.qumulo.net/invoices/UNIQUE_NAME`"
-        *The UNIQUE_NAME is a subfolder for you to work in. Use something easy to remember like your first and last name.*
-        For example: "`file://anq.qcc.qumulo.net/invoices/billgates`"
+    - For the workshop on June 6th, 2024, we are using "`file://anq.qcc.qumulo.net/invoices/UNIQUE_NAME`" <br>
 
-  - Create the new sub-directory.
-    - You can use File Explorer, or in PowerShell enter `mkdir billgates` *(but use the name you chose!)*
+| *The UNIQUE_NAME is a subfolder for you to personally work in. Use something easy to remember like your first and last name.* |
+|--------------------------------------------------------------------------------------------------------------------------------|
+| For example: "`file://anq.qcc.qumulo.net/invoices/grumpquat`"                                                                  |
+
+  - Create a sub-directory for the UNIQUE_NAME folder you created in `\\anq.qcc.qumulo.net\invoices`
+    - You can use File Explorer, or in PowerShell enter `mkdir \\anq.qcc.qumulo.net\invoices\grumpquat` *(but use the name you chose!)*
 <br>
 
 
