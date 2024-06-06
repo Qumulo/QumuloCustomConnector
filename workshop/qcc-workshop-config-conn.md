@@ -24,12 +24,6 @@
 | `tempFilePath`   | `C:\\Users\\Qumulo\\Desktop\\qcc\\Invoices_temp.txt`  |
 <br> *(verify that all backslashes are escaped in the path name)* 
 
-<p align="center">
-  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-workshop-vscode-jsons.png" alt="Example of edited config files">
-</p>
-<p align="center">
-  <em>Example of edited qumulo.json and connection.json files</em>
-</p>
 
 #### Modifications to make in the `connection.json` file:
 
@@ -56,13 +50,21 @@
 
 
 <p align="center">
-  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/list-invoices.png" alt="Invoices directory listing">
+  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/hostname.png" alt="Display hostname">
 </p>
 <p align="center">
   <em>Options to determine your HOSTNAME</em>
 </p>
 
+    - An example of edited `qumulo.json` and `connection.json` files is provided further down on this page.
 
+
+<p align="center">
+  <img src="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/images/qcc-workshop-vscode-jsons.png" alt="Example of edited config files">
+</p>
+<p align="center">
+  <em>Example of edited qumulo.json and connection.json files</em>
+</p>
 
 ### Step 2: Validate the PDF's in the ANQ SMB folder
 
