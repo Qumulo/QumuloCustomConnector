@@ -3,9 +3,9 @@
 
 Deploying the workshop involves two main steps: deploying an ANQ cluster and running Terraform to provision the Windows 10 workstations (QCC pre-requisite ready).
 
-### Step 1: Deploying the ANQ Cluster
+## Step 1: Deploying the ANQ Cluster
 
-#### Option A: Deploy ANQ Using the Azure Portal
+### Option A: Deploy ANQ Using the Azure Portal
 
 - Start by watching this short one minute video:
 
@@ -17,7 +17,7 @@ Deploying the workshop involves two main steps: deploying an ANQ cluster and run
 
 - Follow the instructions in Microsoft's [Get started with Azure Native Qumulo Scalable File Service](https://learn.microsoft.com/en-us/azure/partner-solutions/qumulo/qumulo-create) article.
 
-#### Option B: Using the Az.Qumulo PowerShell Module
+### Option B: Using the Az.Qumulo PowerShell Module
 
 High-level overview:
 1. Install the required PowerShell module.
@@ -25,12 +25,12 @@ High-level overview:
 3. Creates a resource group if one doesn't already exist.
 4. Define and create an ANQ cluster.
 
-##### Variables to configure:
+### Variables to configure:
 
 | Variable              | Description                                           | Example                             |
 |-----------------------|-------------------------------------------------------|-------------------------------------|
 | `YourResourceGroupName` | The name of the resource group                      | myResourceGroup                             |
-| `YourLocation`        | The location of the resource group                    |  [For supported regions, see:](https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies/#geographies)                  |
+| `YourLocation`        | The location of the resource group                    | eastus2 [Supported regions](https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies/#geographies)                  |
 | `YourClusterName`     | The name of the ANQ cluster (<= 15 characters) | `myanqcluster-1`                   |
 | `YourClusterSize`     | The size of the ANQ cluster                           | `Standard`                          |
 | `YourCapacity`        | The initial capacity of the ANQ cluster (minimum 100TiB) | `100`                              |
@@ -111,7 +111,7 @@ High-level overview:
 
 For additional details about the Az.Qumulo PowerShell Module, [click here](https://learn.microsoft.com/en-us/powershell/module/az.qumulo/?view=azps-12.0.0).
 
-#### Option C: Using the Azure REST API (Python Script)
+### Option C: Using the Azure REST API (Python Script)
 
 - Azure Qumulo SDK for Python [documentation](https://learn.microsoft.com/en-us/python/api/overview/azure/qumulo?view=azure-python).
 
@@ -119,7 +119,7 @@ For additional details about the Az.Qumulo PowerShell Module, [click here](https
 
 ---
 
-### Step 2: Deploying QCC Windows 10 Workstations with Terraform
+## Step 2: Deploying QCC Windows 10 Workstations with Terraform
 
 - Customizing the configuration for your environment:
    - Modify the `variables.tf` file located in [the GitHub repo](https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/terraform/variables.tf) with your specific environment settings.
