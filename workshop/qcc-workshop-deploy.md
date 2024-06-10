@@ -25,15 +25,15 @@ Deploying the workshop involves two main steps: deploying an ANQ cluster and run
 
 | Variable              | Description                                           | Example                             |
 |-----------------------|-------------------------------------------------------|-------------------------------------|
-| `YourResourceGroupName` | The name of the resource group                      | `myResourceGroup`                             |
-| `YourLocation`        | The location of the resource group                    | `eastus2`                           |
-| `YourClusterName`     | The name of the ANQ cluster (must be less than 15 characters) | `myanqcluster-1`                   |
+| `YourResourceGroupName` | The name of the resource group                      | myResourceGroup                             |
+| `YourLocation`        | The location of the resource group                    |  [For supported regions, see:](https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies/#geographies)                  |
+| `YourClusterName`     | The name of the ANQ cluster (<= 15 characters) | `myanqcluster-1`                   |
 | `YourClusterSize`     | The size of the ANQ cluster                           | `Standard`                          |
 | `YourCapacity`        | The initial capacity of the ANQ cluster (minimum 100TiB) | `100`                              |
 | `AdminPassword`       | The admin password for the ANQ cluster                | `Mypassword!123`                    |
 | `UserEmail`           | The user email for notifications                      | `storageadmins@yourorganization.com`|
 | `DelegatedSubnetId`   | The subnet ID delegated to Qumulo.Storage/fileSystems | `/subscriptions/.../subnets/...`    |
-| `AvailabilityZone`    | The availability zone for the ANQ cluster             | `2`                                 |
+| `AvailabilityZone`    | The availability zone for the ANQ cluster (Keep same as workstations) | `2`                                 |
 | `Tag`                 | User-defined tags                                     | `@{"123"="abc"}`                    |
 | `MarketplaceOfferId`  | The marketplace offer ID                              | `qumulo-saas-mpp`                   |
 | `MarketplacePlanId`   | The marketplace plan ID                               | `azure-native-qumulo-hot-cold-iops` |
