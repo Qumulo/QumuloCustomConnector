@@ -78,7 +78,7 @@ High-level overview:
     $Tag = @{"123"="abc"}
 
     $MarketplaceOfferId = "qumulo-saas-mpp" 
-    $MarketplacePlanId = "azure-native-qumulo-hot-cold-iops" 
+    $MarketplacePlanId = "2024-02-01-free-test-plan" 
     $MarketplacePublisherId = "qumulo1584033880660"
     $StorageSku = "Standard"
     ```
