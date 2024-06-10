@@ -15,7 +15,7 @@
 #### Modifications to make in the `qumulo.json` file:
 
 - In the `qumulo.json` file, update the `clusterAddress`, `shareName`, and `tempFilePath` values to match those provided in your handout.
-    - For the workshop on June 6th, 2024, use the following values:
+    - If this is a Qumulo sponsered workshop, use the following values:
 
 | Field            | Value                                               |
 |------------------|-----------------------------------------------------|
@@ -40,7 +40,7 @@
 | Uniqueness        | Each connection ID must be unique within the tenant                                  |
 
 - Update the `activitySettings` -> `baseUrl` value to match the UNC path provided in the handout.
-    - For the workshop on June 6th, 2024, use: `file://anq.qcc.qumulo.net/invoices/HOSTNAME`
+    - If this is a Qumulo sponsered workshop, use: `file://anq.qcc.qumulo.net/invoices/HOSTNAME`
     - Where HOSTNAME is your computers name (Ie: `$env:COMPUTERNAME`)
 
 | *Tip* |
