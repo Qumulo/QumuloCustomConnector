@@ -9,7 +9,11 @@ Deploying the workshop is done in two steps: deploying an ANQ cluster and runnin
 - Start by watching this one minute video: 
 <br>
 
-[![Watch this one minute video](https://img.youtube.com/vi/zJpUAZVAato/0.jpg)](https://www.youtube.com/watch?v=zJpUAZVAato)
+<div align="center">
+    <a href="https://www.youtube.com/watch?v=zJpUAZVAato">
+        <img src="https://img.youtube.com/vi/zJpUAZVAato/0.jpg" alt="Watch this one minute video">
+    </a>
+</div>
 
 - Follow the instructions in Microsoft's *Get started with Azure Native Qumulo Scalable File Service* article [Get started with Azure Native Qumulo Scalable File Service](https://learn.microsoft.com/en-us/azure/partner-solutions/qumulo/qumulo-create) article. 
 
