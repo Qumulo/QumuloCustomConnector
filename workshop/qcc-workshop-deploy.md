@@ -19,7 +19,7 @@ Deploying the workshop involves two main steps: deploying an ANQ cluster and run
 
 #### Option B: Using the Az.Qumulo PowerShell Module
 
->The following PowerShell commands perform the following: 
+High-level overview:
 1. Install the required PowerShell module.
 2. Connects to the Azure Account (`Connect-AzAccount`).
 3. Creates a resource group if one doesn't already exist.
