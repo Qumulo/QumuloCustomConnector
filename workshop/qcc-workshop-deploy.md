@@ -30,7 +30,7 @@ High-level overview:
 | Variable              | Description                                           | Example                             |
 |-----------------------|-------------------------------------------------------|-------------------------------------|
 | `YourResourceGroupName` | The name of the resource group                      | myResourceGroup                             |
-| `YourLocation`        | The location of the resource group                    | Example: eastus2 <br> <small>[ANQ supported regions](https://qumulo.com/product/azure/#:~:text=Azure%20Native%20Qumulo%20can%20be,%2C%20UK%2C%20Asia%20and%20Canada.)<small>                  |
+| `YourLocation`        | The location of the resource group                    | Example: eastus2 <br> <small><center>[ANQ supported regions](https://qumulo.com/product/azure/#:~:text=Azure%20Native%20Qumulo%20can%20be,%2C%20UK%2C%20Asia%20and%20Canada.)<center><small>                  |
 | `YourClusterName`     | The name of the ANQ cluster (<= 15 characters) | `myanqcluster-1`                   |
 | `YourClusterSize`     | The size of the ANQ cluster                           | `Standard`                          |
 | `YourCapacity`        | The initial capacity of the ANQ cluster (minimum 100TiB) | `100`                              |
