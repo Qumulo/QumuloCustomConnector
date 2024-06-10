@@ -7,7 +7,7 @@ Deploying the workshop involves two main steps: deploying an ANQ cluster and run
 
 #### Option A: Deploy ANQ Using the Azure Portal
 
-- Start by watching this one minute video:
+- Start by watching this short one minute video:
 
 <div align="center">
     <a href="https://www.youtube.com/watch?v=zJpUAZVAato">
@@ -15,13 +15,17 @@ Deploying the workshop involves two main steps: deploying an ANQ cluster and run
     </a>
 </div>
 
-- Follow the instructions in Microsoft's *Get started with Azure Native Qumulo Scalable File Service* article [Get started with Azure Native Qumulo Scalable File Service](https://learn.microsoft.com/en-us/azure/partner-solutions/qumulo/qumulo-create).
+- Follow the instructions in Microsoft's [Get started with Azure Native Qumulo Scalable File Service](https://learn.microsoft.com/en-us/azure/partner-solutions/qumulo/qumulo-create) article.
 
 #### Option B: Using the Az.Qumulo PowerShell Module
 
->The following PowerShell commands install the necessary module, connect to Azure, create the resource group if it doesn't exist, and then create the ANQ cluster with the specified parameters.
+>The following PowerShell commands perform the following: 
+1. Install the required PowerShell module.
+2. Connects to the Azure Account (`Connect-AzAccount`).
+3. Creates a resource group if one doesn't already exist.
+4. Define and create an ANQ cluster.
 
-- Be sure to set the variables below to match your environmental:
+##### Variables to configure:
 
 | Variable              | Description                                           | Example                             |
 |-----------------------|-------------------------------------------------------|-------------------------------------|
