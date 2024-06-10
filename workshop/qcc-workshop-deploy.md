@@ -37,7 +37,7 @@ High-level overview:
 | `AdminPassword`       | The admin password for the ANQ cluster                | `Mypassword!123`                    |
 | `UserEmail`           | The user email for notifications                      | `storageadmins@yourorganization.com`|
 | `DelegatedSubnetId`   | The subnet ID delegated to Qumulo.Storage/fileSystems | `/subscriptions/.../subnets/...`    |
-| `AvailabilityZone`    | The availability zone for the ANQ cluster (Keep same as workstations) | `2`                                 |
+| `AvailabilityZone`    | The availability zone for the ANQ cluster (Keep same as workstations) | Example: `2`                        |
 | `Tag`                 | User-defined tags                                     | `@{"Department"="Engineering"}`                    |
 | `MarketplaceOfferId`  | The marketplace offer ID                              | `qumulo-saas-mpp`                   |
 | `MarketplacePlanId`   | The marketplace plan ID                               | `azure-native-qumulo-hot-cold-iops` |
