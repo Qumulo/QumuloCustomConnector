@@ -132,5 +132,5 @@ For additional details about the Az.Qumulo PowerShell Module, [click here](https
 ---
 
 <div align="right">
-  <a href="qcc-workshop-holstart.md">⬅️ [Previous: Hands-On Lab]</a> | <a href="qcc-workshop-connecting.md">[Next: Connecting to the Workshop] ➡️</a>
+  <a href="qcc-workshop.md">⬅️ [Previous: Start]</a> | <a href="qcc-workshop-connecting.md">[Next: Connecting to the Workshop] ➡️</a>
 </div>
