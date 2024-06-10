@@ -19,9 +19,27 @@ Deploying the workshop involves two main steps: deploying an ANQ cluster and run
 
 #### Option B: Using the Az.Qumulo PowerShell Module
 
->The following PowerShell commands below install the necessary module, connect to Azure, create the resource group if it doesn't exist, and then create the ANQ cluster with the specified parameters.
+>The following PowerShell commands install the necessary module, connect to Azure, create the resource group if it doesn't exist, and then create the ANQ cluster with the specified parameters.
 
-- Be sure to set the variables `YourResourceGroupName`, `YourLocation`, `YourClusterName`, `YourClusterSize`, and `YourCapacity` to match your environmental specifics.
+- Be sure to set the variables below to match your environmental:
+
+| Variable              | Description                                           | Example                             |
+|-----------------------|-------------------------------------------------------|-------------------------------------|
+| `YourResourceGroupName` | The name of the resource group                      | `myResourceGroup`                             |
+| `YourLocation`        | The location of the resource group                    | `eastus2`                           |
+| `YourClusterName`     | The name of the ANQ cluster (must be less than 15 characters) | `myanqcluster-1`                   |
+| `YourClusterSize`     | The size of the ANQ cluster                           | `Standard`                          |
+| `YourCapacity`        | The initial capacity of the ANQ cluster (minimum 100TiB) | `100`                              |
+| `AdminPassword`       | The admin password for the ANQ cluster                | `Mypassword!123`                    |
+| `UserEmail`           | The user email for notifications                      | `storageadmins@yourorganization.com`|
+| `DelegatedSubnetId`   | The subnet ID delegated to Qumulo.Storage/fileSystems | `/subscriptions/.../subnets/...`    |
+| `AvailabilityZone`    | The availability zone for the ANQ cluster             | `2`                                 |
+| `Tag`                 | User-defined tags                                     | `@{"123"="abc"}`                    |
+| `MarketplaceOfferId`  | The marketplace offer ID                              | `qumulo-saas-mpp`                   |
+| `MarketplacePlanId`   | The marketplace plan ID                               | `azure-native-qumulo-hot-cold-iops` |
+| `MarketplacePublisherId` | The marketplace publisher ID                      | `qumulo1584033880660`               |
+| `StorageSku`          | The storage SKU                                       | `Standard`                          |
+
 
 1. Install the Az.Qumulo module:
     ```powershell
