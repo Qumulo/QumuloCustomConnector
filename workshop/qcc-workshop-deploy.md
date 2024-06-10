@@ -4,33 +4,32 @@ Deploying the workshop is done in two steps: deploying an ANQ cluster and runnin
 
 ### Step 1: Deploying the ANQ cluster 
 
-#### Option A: Using the Azure Portal
+##### Option A: Deploy ANQ using the Azure Portal
 
-- Watch this one minute video: 
+- Start by watching this one minute video: 
 <br>
 
 [![Watch this one minute video](https://img.youtube.com/vi/zJpUAZVAato/0.jpg)](https://www.youtube.com/watch?v=zJpUAZVAato)
 
-- Or follow these instructions in Microsoft's *Get started with Azure Native Qumulo Scalable File Service* article [Get started with Azure Native Qumulo Scalable File Service](https://learn.microsoft.com/en-us/azure/partner-solutions/qumulo/qumulo-create).
- article 
+- Follow the instructions in Microsoft's *Get started with Azure Native Qumulo Scalable File Service* article [Get started with Azure Native Qumulo Scalable File Service](https://learn.microsoft.com/en-us/azure/partner-solutions/qumulo/qumulo-create) article. 
 
-#### Option B: Using the Az.Qumulo PowerShell Module
+##### Option B: Using the Az.Qumulo PowerShell Module
 
-The PowerShell commands below installs the necessary module, connects to Azure, creates the resource group if it doesn't exist, and then creates the ANQ cluster with the specified parameters.
+>The following PowerShell commands below installs the necessary module, connects to Azure, creates the resource group if it doesn't exist, and then creates the ANQ cluster with the specified parameters.
 
-Replace `YourResourceGroupName`, `YourLocation`, `YourClusterName`, `YourClusterSize`, and `YourCapacity` in the commands below with your specific values. 
+- Be sure to set the variables `YourResourceGroupName`, `YourLocation`, `YourClusterName`, `YourClusterSize`, and `YourCapacity` to match your environmental specifics. 
 
-1. **Install the Az.Qumulo module**:
+1. Install the Az.Qumulo module
     ```powershell
     Install-Module -Name Az.Qumulo -Scope CurrentUser -Force -AllowClobber
     ```
 
-2. **Connect to your Azure account**:
+2. Connect to your Azure account
     ```powershell
     Connect-AzAccount
     ```
 
-3. **Define the parameters for the ANQ cluster**:
+3. Define the parameters for the ANQ cluster
     ```powershell
     
     # Update with your specifics
@@ -62,7 +61,7 @@ Replace `YourResourceGroupName`, `YourLocation`, `YourClusterName`, `YourCluster
 
     ```
 
-4. **Create the resource group** (if it does not already exist):
+4. Create a resource group (if it does not already exist)
     ```powershell
     $resourceGroup = Get-AzResourceGroup -Name $resourceGroupName -ErrorAction SilentlyContinue
     if (-not $resourceGroup) {
@@ -70,7 +69,7 @@ Replace `YourResourceGroupName`, `YourLocation`, `YourClusterName`, `YourCluster
     }
     ```
 
-5. **Create the ANQ cluster**:
+5. Create the ANQ cluster
     ```powershell
 New-AzQumuloFileSystem -Name $clusterName `
     -ResourceGroupName $resourceGroupName `
@@ -96,11 +95,11 @@ For additional details about the Az.Qumulo PowerShell Module, [click here.](http
 
 - Azure Qumulo SDK for Python <a href="https://learn.microsoft.com/en-us/python/api/overview/azure/qumulo?view=azure-python">[documentation]</a>. 
 
-- You can download an example python script <a href="create-anq-cluster.py">[from the GitHUB repo]</a>. 
+- You can <a href="create-anq-cluster.py">[download]</a> an example python script from the GitHUB repo. 
 
 ---
 
-### Step 2: Deploying the Windows Workstations with Terraform
+### Step 2: Deploying QCC Windows 10 Workstations with Terraform
 
 - Customizing the configuration for your environment
    - Modify yhe `variables.tf` file located in <a href="https://github.com/Qumulo/QumuloCustomConnector/blob/main/workshop/terraform/variables.tf">[ the GitHUB repo]</a> with your specific environment settings.  
