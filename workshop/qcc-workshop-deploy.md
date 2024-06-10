@@ -131,7 +131,8 @@ For additional details about the Az.Qumulo PowerShell Module, [click here](https
 
 - The `terraform apply` will take ~10 minutes, as it is downloading, installoing, and configuring a suite of prerequisites for the workshop.  
    - Let the WindowsExtensions fully complete before logging into the windows workstations. 
-   - Once the attendees log in, there will be a Powershell 7 command prompt running.  **Let this finish**, as it is intalling the required Powershell modules. 
+   - Once the attendees log in, there will be a Powershell 7 command prompt running.  
+   - **Let the Powershell 7 script finish**, as it is intalling the required Powershell modules. 
 
 ---
 
